@@ -6,17 +6,17 @@ url: https://reinoestelar.com
 branding:
   title: "R-NET"
   logo: /static/logo-reino-estelar.webp
-  label: "v4.0.5"
+  label: "v5.0.0"
   favicon: /favicon.ico
   css:
     - /static/custom.min.css
   color: fuchsia
   accent: "#c7ff94"
+  footer: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
 
 search:
   enabled: true
   placeholder: "Buscar en la intranet..."
-  # Evita que la guía de moderación aparezca en los resultados generales
 
 
 locale: es
@@ -39,12 +39,6 @@ editor:
 hosting:
   cname: reinoestelar.com
 
-footer:
-  copyright: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
-
 sitemap:
   enabled: true
 
-
-# --- LLAVE PRO PARA GITHUB ACTIONS ---
-key: ${{ secrets.RETYPE_KEY }}
