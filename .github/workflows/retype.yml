@@ -14,9 +14,8 @@ jobs:
 
       - uses: retypeapp/action-build@v4
         with:
-          key: ${{ secrets.RETYPE_KEY }} 
+          key: ${{ secrets.RETYPE_KEY }}
 
       - uses: retypeapp/action-github-pages@v4
         with:
-          branch: retype
-          update-status: true
+          branch: retype  
