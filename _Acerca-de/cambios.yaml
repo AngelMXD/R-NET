@@ -1,0 +1,186 @@
+##Para generar el changelog, 
+##se utiliza un script que toma la información de este archivo y 
+##la convierte en un formato legible. 
+##El script está diseñado para facilitar la actualización del changelog y 
+##asegurar que todos los cambios sean documentados de manera clara y concisa.
+
+#Este es el comando que se utiliza para generar el changelog y Genera el sitio web:
+# npm run changelog && retype build
+## Es mega importante que se haga el "netlify deploy --prod" 
+##para que se suba el sitio web a la nube.
+
+
+- version: 1.4.0
+  fecha: 2025-02-04
+  cambios:
+    - 'Se agregó nuevo contenido en [Comandos](https://reino-estelar.netlify.app/5-recursos/5.1-comandos/) explicando su función.'
+    - 'Se reorganizó y reescribió contenido para mayor claridad.'
+
+- version: 1.4.1
+  fecha: 2025-02-04
+  cambios:
+    - 'Nuevo canal: [¿Qué son los comandos?](https://reino-estelar.netlify.app/5-recursos/5.2-que-son-los-comandos/), que explica el uso y contexto de sanciones.'
+
+- version: 1.4.2
+  fecha: 2025-02-21
+  cambios:
+    - 'Rediseño visual de títulos y carpetas con nuevas imágenes ilustrativas.'
+
+- version: 1.5.3
+  fecha: 2025-02-23
+  cambios:
+    - 'Contenido agregado sobre [Motivos y sanciones para canales de voz](https://reino-estelar.netlify.app/2-canales-de-voz/2.3-motivos-y-sanciones/).'
+    - 'Mejoras visuales en textos con color para modo claro y oscuro.'
+
+- version: 1.5.4
+  fecha: 2025-02-24
+  cambios:
+    - 'Hipervínculos de la página de inicio corregidos.'
+    - 'Se agregaron fechas de modificación visibles en cada página.'
+
+- version: 1.6.5
+  fecha: 2025-02-25
+  cambios:
+    - 'Correcciones ortográficas en varias páginas como ["📨 Guía para Adjuntar Tickets y Casos"](https://reino-estelar.netlify.app/1-introduccion/1.2-c%C3%B3mo-adjuntar-casos-y-tickets/) y [Motivos y sanciones](https://reino-estelar.netlify.app/2-canales-de-voz/2.3-motivos-y-sanciones/).'
+    - 'Ampliación del contenido sobre [Comandos de UnbelievaBoat](https://reino-estelar.netlify.app/4-recursos/5.1-comandos/).'
+    - 'Inicio del desarrollo de la sección "ToS de Discord".'
+    - 'Decoración añadida en la página de bienvenida.'
+
+- version: 1.7.5
+  fecha: 2025-02-25
+  cambios:
+    - 'Reescritura y ampliación de la página "Directrices de la comunidad".'
+    - 'Nueva página sobre "Política de Intimidación, Acoso y Amenazas de Discord".'
+
+- version: 1.8.6
+  fecha: 2025-03-19
+  cambios:
+    - 'Contenido nuevo en "5️⃣-📚-Recursos" sobre configuración de OBS Studio.'
+    - 'Movimiento de la página de tickets a la carpeta "4️⃣-🎫-Tickets".'
+
+- version: 1.8.7
+  fecha: 2025-04-05
+  cambios:
+    - 'Se agregó el favicon al sitio web.'
+    - 'Se comenzaron las políticas sobre "Canales de texto".'
+
+- version: 1.8.8
+  fecha: 2025-04-05
+  cambios:
+    - 'Nueva carpeta "Acerca de:" con info del estado del sitio.'
+    - 'Traducciones de la web corregidas.'
+    - 'Pequeñas adiciones en "Políticas de texto" y "Motivos y sanciones".'
+
+- version: 1.9.8
+  fecha: 2025-04-16
+  cambios:
+    - 'Corrección ortográfica general.'
+    - 'Reescritura de la página sobre la Política de Intimidación.'
+    - 'Se completó el contenido sobre "Canales de texto" (estructura pendiente de mejoras).'
+
+
+
+- version: 2.0.0
+  fecha: 2025-05-5
+  cambios:
+    - '**Automatización de la generación de changelog:** Se implementó un script que automatiza el proceso de registro de cambios, permitiendo una actualización más eficiente y organizada de la página web y el código.'
+    - '**Mejoras en la sección "Motivos y sanciones" de los canales de texto:** Se está llevando a cabo una reestructuración para hacerla más clara y fácil de entender, mejorando la accesibilidad de la información.'
+    - '**Nueva sección "Preguntas Frecuentes" (FAQ):** Se añadió una sección dedicada a responder las preguntas más comunes de los usuarios, proporcionando respuestas rápidas y accesibles a las dudas más frecuentes.'
+
+
+- version: 2.1.0
+  fecha: 06-05-2025
+  cambios:
+    - 'Se actualizo los "Motivos y sanciones" de los canales de texto.'
+  mejoras:
+    - 'Mejoras en el script del changelog.'
+    - 'Se actualizo "Retype" a "3.8.0" para agregar mas caracteristicas y correcciones de errores.'
+
+
+- version: 2.1.1
+  fecha: 08-05-2025
+  correcciones:
+    - 'Se corrigieron errores de ortografía en la sección de "1.0 ❯ 📜 Para aprendices".'
+    - 'Leves ajustes al codigo interno.'
+  novedades:
+    - 'Se agrego y se hizo un formularo para que puedas enviar tus sugerencias y comentarios sobre la guía.'
+    - 'Se hizo una renovacion visual en la sección "1.0 ❯ 📜 Para aprendices" para que sea más clara y bonita.'
+
+
+
+- version: 2.2.2
+  fecha: 18-05-2025
+  correcciones:
+    - 'Se corrigió errores de ortografía en "2.1 ❯ ⚖️ Políticas" de voz.'
+    - 'Se corrigió errores de ortografía en "2.2 ❯ 🗣️ Cómo actuar" de voz'
+    - 'Leves ajustes al código interno.'
+    - 'Se corrigió la "✰₊˚✨🚀Bienvenido a la Guía de Reino Estelar"'
+
+- version: 3.0.0
+  fecha: 2025-09-13
+  cambios:
+    - 'Actualización mayor del sitio y portada con versión 3.0.0.'
+    - 'Se cambio el "logo" del sitio web.'
+    - 'Se realiza cambios en el apartado de "4.2 ❯ 📨 Guia para Adjuntar Tickets y Casos"'
+    - 'Se cambio el "nombre del proyecto de "Guía de Reino Estelar" a "Intranet de Reino Estelar"'
+  mejoras:
+    - 'Optimizacion del codigo interno'
+    - 'Se mejoro la estructura de carpetas y archivos del proyecto.'
+    - 'Se implementó las "etiquetas" en el sitio.'
+    - 'Se agrego nuevas preguntas al "FORMS" para mayor claridad de respuesta'
+  correcciones:
+   - 'Se corrigio varios errores ortograficos en todo el sitio.'
+   - 'Se corrigio errores en los enlaces internos del sitio en la pagina de incio de: ✰₊˚✨🚀 Bienvenido a la intranet de Reino Estelar'
+  documentación:
+   - 'Se desarrolla documentacion para la implementacion de las reglas del servidor. Intentara abarcar los canales exitstentes y abarcara los problemas actuales.'
+
+
+
+- version: 3.1.0
+  fecha: 2025-10-02
+  cambios:
+    - "Mejoras de rendimiento: El tiempo de carga bajó de ~781 ms a ~185 ms."
+    - "El contenido principal aparece en solo ~95 ms."
+    - "El peso de transferencia inicial se redujo de 5.4 MB a 2.1 MB."
+    - "Optimización de imágenes y estilos para reducir consumo de datos."
+    - "Correcciones de accesibilidad (alt en imágenes, labels en botones y enlaces)."
+    - "Seguridad reforzada con nuevas cabeceras HTTP."
+    - "Reemplazo del logo GIF por formato más ligero (SVG/WebP)."
+  imagen: /assets/changelog-3.0.0-rendimiento.png
+
+
+- version: 4.0.0
+  fecha: 2025-12-13
+  cambios:
+    - "Se corrigieron errores tipográficos y de redacción en múltiples secciones de la guía."
+    - "Se amplió y actualizó el contenido de la sección de Comandos de UnbelievaBoat."
+    - "Se mejoró la estructura y claridad de la sección 'Guía para Adjuntar Tickets y Casos'."
+    - "Se añadió una tabla de contenido en la sección de 'Motivos y sanciones' aplicada a canales de voz."
+    - "Se integró el plugin Cloudflare Cache Purge en Netlify para automatizar la limpieza de caché del CDN, evitando que se muestren versiones antiguas del sitio tras cada actualización."
+  novedades:
+    - "Se renovó el apartado de 'Directrices de la comunidad', incorporando las políticas oficiales de Discord actualizadas con vigencia a partir del 29 de septiembre de 2025."
+    - "Se agregó una nueva página informativa donde se detalla la estructura de roles por niveles y los beneficios asociados dentro del servidor."
+    - " Se implemento la seccion titulada Recursos Oficiales de Discord, donde incluye recursos oficiales. Este documento sirve para que sea un todo en uno para los moderadores y administradores del servidor."
+
+
+- version: 4.0.5
+  fecha: 2025-12-18
+
+  cambios:
+  - "Integración de Google Tag Gateway mediante Cloudflare."
+  - "Corrección de errores en el tipo de información de la sección: «Estructura de roles por niveles y beneficios asociados»."
+  - "Ajustes menores en el apartado «Para aprendices»."
+
+  mejoras:
+  - "Optimización de métricas de acceso con un enfoque reforzado en la privacidad del usuario."
+  - "Optimización de las imágenes del sitio para mejorar el rendimiento de la intranet, reduciendo el peso y acelerando los tiempos de carga."
+
+
+
+- version: 4.0.6
+  fecha: 2025-12-18
+  correcciones:
+  - "Se corrigió un error 404 intermitente al acceder a páginas específicas por primera vez"
+  cambios:
+  - "Se actualiza: 2.3 ❯ 🚨 Motivos y sanciones. Corrigiendo puntos críticos en la moderación."
+  - "Se realizan ajustes operativos y de redacción en la pagina 2.3 ❯ 🚨 Motivos y sanciones"

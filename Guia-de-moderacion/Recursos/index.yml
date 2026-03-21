@@ -1,0 +1,13 @@
+
+
+label: Recursos
+order: -1000      # la manda hasta abajo del menú
+expanded: false  # se mantiene cerrada (realmente es el default)
+visibility: hidden
+
+
+
+
+
+
+

@@ -1,0 +1,833 @@
+{
+  "version": "4.1.0",
+  "created": "2026-03-17T00:59:22Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "1-introduccion\\1.0-para-aprendices\\index.html",
+      "old": true
+    },
+    {
+      "path": "1.reglas-estelares\\canales-de-texto\\index.html",
+      "old": true
+    },
+    {
+      "path": "1.reglas-estelares\\introduccion\\index.html",
+      "old": true
+    },
+    {
+      "path": "1.reglas-estelares\\reglas-generales\\canales-de-texto\\index.html",
+      "old": true
+    },
+    {
+      "path": "1.reglas-estelares\\reglas-serv-piloto-2\\index.html",
+      "old": true
+    },
+    {
+      "path": "2-canales-de-voz\\2.1-politicas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2-canales-de-voz\\2.2-como-actuar\\index.html",
+      "old": true
+    },
+    {
+      "path": "2-canales-de-voz\\2.3-motivos-y-sanciones\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\1-introduccion\\1.0-para-aprendices\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\2-canales-de-voz\\2.1-politicas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\2-canales-de-voz\\2.2-como-actuar\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\2-canales-de-voz\\2.3-motivos-y-sanciones\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\3-canales-de-texto\\3.1-politicas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\3-canales-de-texto\\3.3-motivos-y-sanciones\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\4-tickets\\4.1-politicas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\4-tickets\\4.2-guia-para-adjuntar-tickets-y-casos\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\5.1-programas-necesarios\\5.1.1-obs-studio\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\5.2-que-son-los-comando\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\5.3-comandos\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\5.4-preguntas-y-respuestas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\5.5-recursos-oficiales-de-discord\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\5.6-información-general\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\pregunta-y-respuestas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\5-recursos\\test\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\6.0-directrices-de-la-comunidad\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\6.1-explicación-de-la-política-de-intimidación-acoso-y-amenazas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\6.1-politica-intimidacion-acoso-y-amenazas\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\adasd\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\directivas_de_la_comunidad_de_discord\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\pl\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\pl2\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\pl3\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\pl4\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\6-tos-de-discord\\plg\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\addressing_harmful_off_platform_behavior\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl2\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl3\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl4\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl5\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl6\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl7\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl8\\index.html",
+      "old": true
+    },
+    {
+      "path": "2.guia-de-moderacion\\recursos\\pl9\\index.html",
+      "old": true
+    },
+    {
+      "path": "3-canales-de-texto\\3.1-como-actuar\\index.html",
+      "old": true
+    },
+    {
+      "path": "3-canales-de-texto\\3.1-politicas\\index.html",
+      "old": true
+    },
+    {
+      "path": "3-canales-de-texto\\3.2-politicas\\index.html",
+      "old": true
+    },
+    {
+      "path": "3-canales-de-texto\\3.3-motivos-y-sanciones\\index.html",
+      "old": true
+    },
+    {
+      "path": "3.acerca-de\\changelog\\index.html",
+      "old": true
+    },
+    {
+      "path": "3.acerca-de\\pruebas\\index.html",
+      "old": true
+    },
+    {
+      "path": "3.acerca-de\\tickets\\index.html",
+      "old": true
+    },
+    {
+      "path": "4-tickets\\4.1-politicas\\index.html",
+      "old": true
+    },
+    {
+      "path": "4-tickets\\4.2-guia-para-adjuntar-tickets-y-casos\\index.html",
+      "old": true
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "5-recursos\\5.1-programas-necesarios\\5.1.1-obs-studio\\index.html",
+      "old": true
+    },
+    {
+      "path": "5-recursos\\5.2-que-son-los-comando\\index.html",
+      "old": true
+    },
+    {
+      "path": "5-recursos\\5.3-comandos\\index.html",
+      "old": true
+    },
+    {
+      "path": "5-recursos\\image-1.png",
+      "old": true
+    },
+    {
+      "path": "5-recursos\\pregunta-y-respuestas\\index.html",
+      "old": true
+    },
+    {
+      "path": "5-recursos\\preguntas-y-respuestas\\index.html",
+      "old": true
+    },
+    {
+      "path": "6-tos-de-discord\\6.0-directrices-de-la-comunidad\\index.html",
+      "old": true
+    },
+    {
+      "path": "6-tos-de-discord\\6.1-explicación-de-la-política-de-intimidación-acoso-y-amenazas\\index.html",
+      "old": true
+    },
+    {
+      "path": "acerca-de\\actualizaciones\\index.html",
+      "old": true
+    },
+    {
+      "path": "acerca-de\\changelog\\index.html",
+      "old": true
+    },
+    {
+      "path": "acerca-de\\estado-del-sitio-web\\index.html",
+      "old": true
+    },
+    {
+      "path": "acerca-de\\longs\\index.html",
+      "old": true
+    },
+    {
+      "path": "acerca-de\\pruebas\\index.html",
+      "old": true
+    },
+    {
+      "path": "actualizaciones\\index.html",
+      "old": true
+    },
+    {
+      "path": "agents\\index.html",
+      "old": true
+    },
+    {
+      "path": "assets\\addressing_harmful_off_platform_behavior.png",
+      "old": true
+    },
+    {
+      "path": "assets\\addressing_harmful_off_platform_behavior.webp"
+    },
+    {
+      "path": "assets\\banner-sapphire-logo.png"
+    },
+    {
+      "path": "assets\\changelog-3.0.0-rendimiento.png"
+    },
+    {
+      "path": "assets\\discord_policy_team.png",
+      "old": true
+    },
+    {
+      "path": "assets\\discord_policy_team.webp"
+    },
+    {
+      "path": "assets\\discord-imagen-1.png",
+      "old": true
+    },
+    {
+      "path": "assets\\discord-imagen-1.webp"
+    },
+    {
+      "path": "assets\\discord-logo.png"
+    },
+    {
+      "path": "assets\\discord-logo.webp"
+    },
+    {
+      "path": "assets\\discord-policy-hub-header-0.png",
+      "old": true
+    },
+    {
+      "path": "assets\\discord-policy-hub-header-0.webp"
+    },
+    {
+      "path": "assets\\ejemplo-ticket-2.png",
+      "old": true
+    },
+    {
+      "path": "assets\\ejemplo-ticket-2.webp"
+    },
+    {
+      "path": "assets\\ejemplo-ticket.png",
+      "old": true
+    },
+    {
+      "path": "assets\\ejemplo-ticket.webp"
+    },
+    {
+      "path": "assets\\ev-ts-1.webp"
+    },
+    {
+      "path": "assets\\ev-ts-2.webp"
+    },
+    {
+      "path": "assets\\foto-1-cambios.png"
+    },
+    {
+      "path": "assets\\foto-2-cambios.png"
+    },
+    {
+      "path": "assets\\ilustracion-reino-1.jpg",
+      "old": true
+    },
+    {
+      "path": "assets\\ilustracion-reino-1.webp"
+    },
+    {
+      "path": "assets\\imagen_ilustrativa_1.jpg",
+      "old": true
+    },
+    {
+      "path": "assets\\imagen_ilustrativa_1.webp"
+    },
+    {
+      "path": "assets\\imagen-autor.jpg"
+    },
+    {
+      "path": "assets\\mod-rc-1.webp"
+    },
+    {
+      "path": "assets\\mod-rc-2.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-2.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-2.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-3.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-3.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-4.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-4.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-5.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-5.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-6.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-6.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-7.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-7.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-8.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-8.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez-9.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez-9.webp"
+    },
+    {
+      "path": "assets\\obs-primeravez.png",
+      "old": true
+    },
+    {
+      "path": "assets\\obs-primeravez.webp"
+    },
+    {
+      "path": "assets\\postcss.config.js",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-1.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-1.webp"
+    },
+    {
+      "path": "assets\\prueba-2.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-2.webp"
+    },
+    {
+      "path": "assets\\prueba-3.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-3.webp"
+    },
+    {
+      "path": "assets\\prueba-4.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-4.webp"
+    },
+    {
+      "path": "assets\\prueba-5.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-5.webp"
+    },
+    {
+      "path": "assets\\prueba-6.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-6.webp"
+    },
+    {
+      "path": "assets\\prueba-7.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-7.webp"
+    },
+    {
+      "path": "assets\\prueba-8.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-8.webp"
+    },
+    {
+      "path": "assets\\prueba-ban-1.pmg.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-ban-1.pmg.webp"
+    },
+    {
+      "path": "assets\\prueba-ban-1.png",
+      "old": true
+    },
+    {
+      "path": "assets\\prueba-ban-1.webp"
+    },
+    {
+      "path": "assets\\purgecss.config.cjs",
+      "old": true
+    },
+    {
+      "path": "assets\\purgecss.config.mjs",
+      "old": true
+    },
+    {
+      "path": "assets\\recurso-1.png"
+    },
+    {
+      "path": "assets\\recurso-2.png",
+      "old": true
+    },
+    {
+      "path": "assets\\recurso-2.webp"
+    },
+    {
+      "path": "assets\\reglas-server.png",
+      "old": true
+    },
+    {
+      "path": "assets\\reglas-server.webp"
+    },
+    {
+      "path": "assets\\reinoestelar.jpg",
+      "old": true
+    },
+    {
+      "path": "assets\\reinoestelar.webp"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "favicon.ico"
+    },
+    {
+      "path": "functions\\borrar-ticket.js",
+      "old": true
+    },
+    {
+      "path": "functions\\cerrar-ticket.js",
+      "old": true
+    },
+    {
+      "path": "functions\\detalle-ticket.js",
+      "old": true
+    },
+    {
+      "path": "functions\\guardar-ticket.js",
+      "old": true
+    },
+    {
+      "path": "functions\\listar-tickets.js",
+      "old": true
+    },
+    {
+      "path": "guia-de-moderacion\\1-introduccion\\1.0-para-aprendices\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\1-introduccion\\glosario\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\1-introduccion\\index.html",
+      "old": true
+    },
+    {
+      "path": "guia-de-moderacion\\1.1test\\index.html",
+      "old": true
+    },
+    {
+      "path": "guia-de-moderacion\\2-canales-de-voz\\2.1-politicas\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\2-canales-de-voz\\2.2-como-actuar\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\2-canales-de-voz\\2.3-motivos-y-sanciones\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\3-canales-de-texto\\3.1-politicas\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\3-canales-de-texto\\3.3-motivos-y-sanciones\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\4-tickets\\4.1-politicas\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\4-tickets\\4.2-guia-para-adjuntar-tickets-y-casos\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\5-recursos\\5.1-programas-necesarios\\5.1.1-obs-studio\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\5-recursos\\5.2-que-son-los-comando\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\5-recursos\\5.3-comandos\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\5-recursos\\5.4-recursos-oficiales-de-discord\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\5-recursos\\comandos-sp\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\6-tos-de-discord\\6.1-explicación-de-la-política-de-intimidación-acoso-y-amenazas\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\6-tos-de-discord\\directivas_de_la_comunidad_de_discord\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\index.html",
+      "old": true
+    },
+    {
+      "path": "guia-de-moderacion\\para-moderadores-ts\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\addressing_harmful_off_platform_behavior\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl2\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl3\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl4\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl5\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl6\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl7\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl8\\index.html"
+    },
+    {
+      "path": "guia-de-moderacion\\recursos\\pl9\\index.html"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "logs\\purgecss-rejected.txt"
+    },
+    {
+      "path": "mod-test-1\\index.html",
+      "old": true
+    },
+    {
+      "path": "netlify\\edge-functions\\protect.js"
+    },
+    {
+      "path": "package-lock.json"
+    },
+    {
+      "path": "package.json"
+    },
+    {
+      "path": "pagina-web-logo.png",
+      "old": true
+    },
+    {
+      "path": "postcss.config.js",
+      "old": true
+    },
+    {
+      "path": "reino-estelar\\5.4-preguntas-y-respuestas\\index.html"
+    },
+    {
+      "path": "reino-estelar\\5.6-información-general\\index.html"
+    },
+    {
+      "path": "reino-estelar\\canales-de-texto\\index.html"
+    },
+    {
+      "path": "reino-estelar\\introduccion\\index.html"
+    },
+    {
+      "path": "resources\\css\\retype.css"
+    },
+    {
+      "path": "resources\\fonts\\Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources\\fonts\\Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources\\js\\config.js"
+    },
+    {
+      "path": "resources\\js\\lunr.js"
+    },
+    {
+      "path": "resources\\js\\mermaid.js",
+      "old": true
+    },
+    {
+      "path": "resources\\js\\prism.js",
+      "old": true
+    },
+    {
+      "path": "resources\\js\\retype.js"
+    },
+    {
+      "path": "resources\\js\\search.json"
+    },
+    {
+      "path": "resources\\lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "static\\android-chrome-192x192.png"
+    },
+    {
+      "path": "static\\android-chrome-512x512.png"
+    },
+    {
+      "path": "static\\apple-touch-icon.png"
+    },
+    {
+      "path": "static\\custom.css",
+      "old": true
+    },
+    {
+      "path": "static\\custom.min.css"
+    },
+    {
+      "path": "static\\discord-logo.png",
+      "old": true
+    },
+    {
+      "path": "static\\discord-logo.webp"
+    },
+    {
+      "path": "static\\favicon-16x16.png"
+    },
+    {
+      "path": "static\\favicon-32x32.png"
+    },
+    {
+      "path": "static\\favicon.ico"
+    },
+    {
+      "path": "static\\google_forms_logo.png",
+      "old": true
+    },
+    {
+      "path": "static\\google_forms_logo.webp"
+    },
+    {
+      "path": "static\\head.html"
+    },
+    {
+      "path": "static\\logo-reino-estelar.gif",
+      "old": true
+    },
+    {
+      "path": "static\\logo-reino-estelar.webp"
+    },
+    {
+      "path": "static\\og-reinoestelar.png"
+    },
+    {
+      "path": "static\\site.webmanifest"
+    },
+    {
+      "path": "tags\\canales-de-texto\\index.html"
+    },
+    {
+      "path": "tags\\index.html"
+    },
+    {
+      "path": "tags\\introducción\\index.html"
+    },
+    {
+      "path": "tags\\politicas\\index.html"
+    },
+    {
+      "path": "tags\\recursos\\index.html"
+    },
+    {
+      "path": "tags\\test\\index.html"
+    },
+    {
+      "path": "temp_index\\index.html",
+      "old": true
+    },
+    {
+      "path": "test-mod-1\\mod-test-1\\index.html"
+    },
+    {
+      "path": "test\\index.html"
+    }
+  ]
+}

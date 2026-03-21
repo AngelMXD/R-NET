@@ -1,0 +1,18 @@
+# --- Sitemap y robots ---
+/sitemap.xml                /sitemap.xml                200
+/robots.txt                 /robots.txt                 200
+
+# --- Functions ---
+/.netlify/functions/* /.netlify/functions/:splat  200
+
+# --- Rewrites/permalinks específicos ---
+/inicio                     /index.html                 200
+/reglas                     /1.Reglas-Estelares/Introduccion/ 200
+
+# --- Redirecciones 301 ---
+/old-page                   /new-page                   301
+/antiguo                    /acerca                     301
+
+# --- FIX: SPA Routing para Retype ---
+# Cambiamos el 404 por un rewrite al index para que el JS de Retype maneje la ruta
+/* /index.html                 200

@@ -1,0 +1,65 @@
+input: .
+output: ./site
+url: https://reinoestelar.com
+
+branding:
+  title: "R-NET"
+  logo: /static/logo-reino-estelar.webp
+  label: "v4.0.5"
+  favicon: /favicon.ico
+  css:
+    - /static/custom.min.css
+  color: fuchsia
+  accent: "#c7ff94"
+
+search:
+  enabled: true
+  placeholder: "Buscar en la intranet..."
+  # ESTO EVITA QUE LA GUÍA APAREZCA EN LOS RESULTADOS DE BÚSQUEDA
+  exclude: 
+    - Guia-de-moderacion/**
+
+# ESTA SECCIÓN DEFINE QUÉ SE VE EN EL MENÚ LATERAL
+# Si no incluyes la carpeta aquí, "desaparece" de la vista pública
+navigation:
+  items:
+    - text: Inicio
+      link: /
+    - text: Lore y Comunidad
+      link: /lore/ # (Asegúrate de que este link sea real)
+
+locale: es
+
+redirects:
+  - from: /old-url
+    to: /new-url
+
+meta:
+  title: " | Reino Estelar"
+  image: static/og-reinoestelar.png
+
+links:
+  - text: Discord
+    link: https://discord.gg/reinoestelar
+    icon: /static/discord-logo.webp
+  - text: Forms
+    link: https://docs.google.com/forms/d/e/1FAIpQLSczusysCS49TAhYwvrQgeOlKJtAHjwB-jLL2Wz0kXWAKHi4EA/viewform?usp=sharing
+    icon: /static/google_forms_logo.webp
+
+editor:
+  enabled: false
+
+hosting:
+  cname: reinoestelar.com
+
+footer:
+  copyright: "© R-NET · Intranet Estelar · v4.0.5 · Última actualización: Marzo 2026"
+
+sitemap:
+  enabled: true
+
+backlinks:
+  enabled: true 
+  title: "Referencias"
+  maxResults: 10
+

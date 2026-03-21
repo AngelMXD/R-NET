@@ -1,0 +1,7 @@
+# Local Netlify folder
+.netlify
+
+/generated/prisma
+
+# Build output de Retype (siempre generar en Netlify)
+/site/
