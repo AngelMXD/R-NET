@@ -9,17 +9,12 @@ jobs:
     name: Build and Publish
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-
     steps:
       - uses: actions/checkout@v4
 
       - uses: retypeapp/action-build@v4
         with:
-          key: ${{ secrets.RETYPE_KEY }}
+          key: ${{ secrets.RETYPE_KEY }} 
 
       - uses: retypeapp/action-github-pages@v4
         with:
