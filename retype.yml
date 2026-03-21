@@ -21,12 +21,6 @@ search:
 
 # ESTA SECCIÓN DEFINE QUÉ SE VE EN EL MENÚ LATERAL
 # Si no incluyes la carpeta aquí, "desaparece" de la vista pública
-navigation:
-  items:
-    - text: Inicio
-      link: /
-    - text: Lore y Comunidad
-      link: /lore/ # (Asegúrate de que este link sea real)
 
 locale: es
 
