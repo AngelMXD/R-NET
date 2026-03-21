@@ -1,0 +1,22 @@
+name: Publish Retype
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: Build and Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: retypeapp/action-build@v4
+        with:
+          license: ${{ secrets.RETYPE_KEY }}
+
+      - uses: retypeapp/action-github-pages@v4
+        with:
+          branch: retype
+          update-status: true
