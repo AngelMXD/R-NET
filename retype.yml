@@ -1,20 +1,21 @@
 # Configuración R-NET - Reino Estelar 2026
 input: .
 output: ./site
-url: https://AngelMXD.github.io/R-NET/
+url: https://reinoestelar.com/
 
 branding:
   title: "R-NET"
   logo: /static/logo-reino-estelar.webp
   label: "v5.0.0"
   favicon: /favicon.ico
-  footer: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
+
+footer:
+  label: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
   branding: false
 
 search:
   enabled: true
   placeholder: "Buscar en la intranet..."
-
 
 locale: es
 
@@ -38,4 +39,3 @@ hosting:
 
 sitemap:
   enabled: true
-

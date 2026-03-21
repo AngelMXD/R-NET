@@ -19,11 +19,3 @@ jobs:
       - uses: retypeapp/action-github-pages@v4
         with:
           branch: retype  
-
-branding:
-  title: "R-NET"
-  logo: /static/logo-reino-estelar.webp
-  label: "v5.0.0"
-  favicon: /favicon.ico
-  footer: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
-  branding: false
