@@ -5,3 +5,6 @@
 
 # Build output de Retype (siempre generar en Netlify)
 /site/
+
+
+node_modules/
