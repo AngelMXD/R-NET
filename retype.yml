@@ -1,3 +1,4 @@
+# Configuración R-NET - Reino Estelar 2026
 input: .
 output: ./site
 url: https://reinoestelar.com
@@ -15,18 +16,10 @@ branding:
 search:
   enabled: true
   placeholder: "Buscar en la intranet..."
-  # ESTO EVITA QUE LA GUÍA APAREZCA EN LOS RESULTADOS DE BÚSQUEDA
-  exclude: 
-    - Guia-de-moderacion/**
+  # Evita que la guía de moderación aparezca en los resultados generales
 
-# ESTA SECCIÓN DEFINE QUÉ SE VE EN EL MENÚ LATERAL
-# Si no incluyes la carpeta aquí, "desaparece" de la vista pública
 
 locale: es
-
-redirects:
-  - from: /old-url
-    to: /new-url
 
 meta:
   title: " | Reino Estelar"
@@ -47,13 +40,11 @@ hosting:
   cname: reinoestelar.com
 
 footer:
-  copyright: "© R-NET · Intranet Estelar · v4.0.5 · Última actualización: Marzo 2026"
+  copyright: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
 
 sitemap:
   enabled: true
 
-backlinks:
-  enabled: true 
-  title: "Referencias"
-  maxResults: 10
 
+# --- LLAVE PRO PARA GITHUB ACTIONS ---
+key: ${{ secrets.RETYPE_KEY }}
