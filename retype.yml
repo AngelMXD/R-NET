@@ -8,10 +8,6 @@ branding:
   logo: /static/logo-reino-estelar.webp
   label: "v5.0.0"
   favicon: /favicon.ico
-  css:
-    - /static/custom.min.css
-  color: fuchsia
-  accent: "#c7ff94"
   footer: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
 
 search:
