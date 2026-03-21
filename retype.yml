@@ -1,7 +1,9 @@
 # Configuración R-NET - Reino Estelar 2026
 input: .
 output: ./site
-url: https://reinoestelar.com/
+
+# DEJAMOS LA URL ORIGINAL PARA QUE LA LLAVE SEA VÁLIDA
+url: https://AngelMXD.github.io/R-NET/
 
 branding:
   title: "R-NET"
@@ -10,8 +12,8 @@ branding:
   favicon: /favicon.ico
 
 footer:
-  label: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
-  branding: false
+  label: "© R-NET · Intranet Estelar · v5.0.0"
+  branding: false  # <-- Esto quitará la marca de agua ahora que la llave sea válida
 
 search:
   enabled: true
@@ -19,22 +21,8 @@ search:
 
 locale: es
 
-meta:
-  title: " | Reino Estelar"
-  image: static/og-reinoestelar.png
-
-links:
-  - text: Discord
-    link: https://discord.gg/reinoestelar
-    icon: /static/discord-logo.webp
-  - text: Forms
-    link: https://docs.google.com/forms/d/e/1FAIpQLSczusysCS49TAhYwvrQgeOlKJtAHjwB-jLL2Wz0kXWAKHi4EA/viewform?usp=sharing
-    icon: /static/google_forms_logo.webp
-
-editor:
-  enabled: false
-
 hosting:
+  # AQUÍ ES DONDE REALMENTE SE CONECTA TU DOMINIO
   cname: reinoestelar.com
 
 sitemap:
