@@ -9,6 +9,7 @@ branding:
   label: "v5.0.0"
   favicon: /favicon.ico
   footer: "© R-NET · Intranet Estelar · v5.0.0 · Última actualización: Marzo 2026"
+  branding: false
 
 search:
   enabled: true
