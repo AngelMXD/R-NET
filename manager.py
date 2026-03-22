@@ -4,15 +4,17 @@ import string
 import subprocess
 import base64
 
+## Sin soporte, se omite para su uso oficial por el momento.
+
 def generar_clave_staff(longitud=10):
     caracteres = string.ascii_letters + string.digits
     return ''.join(secrets.choice(caracteres) for i in range(longitud))
 
 def configurar_escudo_netlify(clave):
-    # 1. Creamos las carpetas ocultas de Netlify
+    
     os.makedirs(os.path.join("netlify", "edge-functions"), exist_ok=True)
     
-    # 2. Creamos la función de servidor que bloqueará el acceso
+    
     js_code = f"""
 export default async (request, context) => {{
     const url = new URL(request.url);
@@ -38,7 +40,7 @@ export default async (request, context) => {{
     with open(os.path.join("netlify", "edge-functions", "protect.js"), "w", encoding="utf-8") as f:
         f.write(js_code)
         
-    # 3. Creamos el archivo de configuración para enlazar la función
+   
     toml_code = """
 [[edge_functions]]
   path = "/guia-de-moderacion/*"

@@ -1,0 +1,21 @@
+{
+	"siteId": "bf3dcafd-7fd3-4a6d-9bef-e0f475a9844d",
+	"geolocation": {
+		"data": {
+			"city": "Guadalupe",
+			"country": {
+				"code": "MX",
+				"name": "Mexico"
+			},
+			"subdivision": {
+				"code": "NLE",
+				"name": "Nuevo León"
+			},
+			"timezone": "America/Monterrey",
+			"latitude": 25.6677,
+			"longitude": -100.2514,
+			"postalCode": "67140"
+		},
+		"timestamp": 1759471171523
+	}
+}

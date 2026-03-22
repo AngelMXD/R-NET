@@ -24,11 +24,9 @@ class ControlPanel(discord.ui.View):
 
     @discord.ui.button(label="🚀 Rotar y Desplegar R-NET", style=discord.ButtonStyle.danger, custom_id="btn_rotar")
     async def deploy_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        # Evita el "Error en esta interacción" avisando que tardará
         await interaction.response.defer(ephemeral=True)
         
         def run_script():
-            # Ejecuta el manager.py y captura todo lo que diga
             return subprocess.run(
                 ["python", "manager.py"], 
                 capture_output=True, 

@@ -8,10 +8,15 @@ backlinks:
   title: "See also"
   maxResults: 5
 ---
-# Sample page
 
-This is a sample page.
+
+
 ---
+
+//## Contenido no oficial, no se implementa en el producto final
+
+---
+
 
 Bienvenido a la documentación oficial de las normas del servidor. Este espacio está diseñado para garantizar una convivencia segura y agradable para todos.
 

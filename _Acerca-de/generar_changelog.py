@@ -25,17 +25,17 @@ def formatear_fecha_es(fecha_obj):
     try:
         return fecha_obj.strftime("%d de %B, %Y")
     except Exception:
-        # Respaldo manual
+        
         return f"{fecha_obj.day:02d} de {MESES_ES[fecha_obj.month-1]}, {fecha_obj.year}"
 
 # Configurar el logger
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-# Constantes (rutas relativas al directorio del script)
+# Constantes 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CAMBIOS_YAML = os.path.join(BASE_DIR, "cambios.yaml")
 CHANGELOG_MD = os.path.join(BASE_DIR, "Changelog.md")
-ORDENAR_POR = "version"  # O usa "fecha"
+ORDENAR_POR = "version" 
 SEMVER_REGEX = r"^\d+\.\d+\.\d+$"
 
 # Diccionario de emojis por sección
@@ -73,9 +73,9 @@ def _agregar_imagenes(entry: dict) -> str:
         if k in entry and isinstance(entry[k], str) and entry[k].strip():
             ruta = entry[k].strip()
             bloques.append(f"![Evidencia]({ruta})\n")
-            break  # prioriza la primera coincidencia
+            break  
 
-    # 2) Lista de imágenes
+    
     for k in IMAGE_LIST_KEYS:
         if k in entry and isinstance(entry[k], list):
             for ruta in entry[k]:
@@ -89,7 +89,7 @@ def procesar_entrada(entry, fecha_formateada):
     version = entry["version"]
     contenido = f"### 🛠 Versión {version} — *{fecha_formateada}*\n"
 
-    # Secciones con bullets (mejoras, cambios, etc.)
+    # Secciones con bullets 
     for clave in EMOJIS_SECCIONES:
         if clave in entry:
             emoji = EMOJIS_SECCIONES[clave]
@@ -101,7 +101,7 @@ def procesar_entrada(entry, fecha_formateada):
             else:
                 logging.warning(f"La clave '{clave}' no es una lista en la versión {entry['version']}")
 
-    # Bloque de imágenes (si hay)
+    # Bloque de imágenes 
     imagenes_md = _agregar_imagenes(entry)
     if imagenes_md:
         contenido += f"\n{imagenes_md}"

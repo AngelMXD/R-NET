@@ -1,6 +1,6 @@
 {
   "version": "4.1.0",
-  "created": "2026-03-17T00:59:22Z",
+  "created": "2026-03-21T05:53:49Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -539,7 +539,8 @@
       "path": "assets\\reinoestelar.webp"
     },
     {
-      "path": "CNAME"
+      "path": "CNAME",
+      "old": true
     },
     {
       "path": "favicon.ico"
@@ -827,7 +828,8 @@
       "path": "test-mod-1\\mod-test-1\\index.html"
     },
     {
-      "path": "test\\index.html"
+      "path": "test\\index.html",
+      "old": true
     }
   ]
 }

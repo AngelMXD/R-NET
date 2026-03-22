@@ -2,11 +2,18 @@
 
 title: "✰₊˚✨🚀 Bienvenido a la intranet de Reino Estelar"
 icon: home
-tags:
-  - Introducción
 description: "Intranet de Reino Estelar: reglas, guía de moderación, tickets y recursos centralizados."
 
 ---
+
+
+---
+
+//## Contenido no oficial, no se implementa en el producto final
+
+---
+
+
 
 #  🌠 Bienvenid@ a la Intranet de Reino Estelar
 

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="turbo-root" content="/R-NET">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.827387626289">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 4.1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Moderacion</title>
+    <meta name="title" content="Moderacion">
+    <meta name="description" content="El módulo de Moderación de Sapphire es complejo, altamente personalizable y ofrece una amplia gama de comandos.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://AngelMXD.github.io/R-NET/test-mod-1/mod-test-1/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://AngelMXD.github.io/R-NET/test-mod-1/mod-test-1/">
+    <meta property="og:title" content="Moderacion">
+    <meta property="og:description" content="El módulo de Moderación de Sapphire es complejo, altamente personalizable y ofrece una amplia gama de comandos.">
+    <meta property="og:image" content="https://AngelMXD.github.io/R-NET/assets/mod-rc-1.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Moderacion">
+    <meta property="og:site_name" content="R-NET">
+    <meta property="og:locale" content="es_ES">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
+    <link href="../../resources/css/retype.css?v=4.1.0.827387626289" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.827387626289" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.827387626289" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+    <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                        <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="../../static/logo-reino-estelar.webp">
+                            <img class="max-h-10 hidden dark:inline-block" src="../../static/logo-reino-estelar.webp">
+                        </span>
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">R-NET</span>
+                    </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">v5.0.0</span>
+                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="retype-container" class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+        
+            <div class="flex items-center h-16 px-6">
+                <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+            </div>
+        
+            <div class="pl-6 mt-1 mb-4">
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            </div>
+        
+            <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                    <span class="text-xs whitespace-nowrap">Powered by</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Sidebar component -->
+        <doc-sidebar v-cloak>
+            <template #sidebar-footer>
+                <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+        
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </template>
+        </doc-sidebar>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+<div class="flex">
+    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+        <main class="relative pb-12 lg:pt-2">
+            <div class="retype-markdown" id="retype-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="retype-sidebar-right-toggle"></div>
+                <nav id="retype-breadcrumb" class="breadcrumb" aria-label="Breadcrumb">
+                    <ol role="list">
+                        <li class="pr-4">
+                            <a href="../../" class="pr-4">
+                                🌠 Bienvenid@ a la Guia de moderacion
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/>
+                            </svg>
+                        </li>
+                        <li class="pr-4">
+                            <a href="../../test-mod-1/mod-test-1/" class="pr-4">
+                                Moderacion
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+
+                <!-- Page content  -->
+<doc-anchor-target id="moderacion" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#moderacion">#</doc-anchor-trigger>
+        <span>Moderacion</span>
+    </h1>
+</doc-anchor-target>
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
+    <div class="flex items-center">
+        <div>Por</div>
+        <div class="ml-2 flex items-center">
+          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <img class="object-cover" src="../../assets/imagen-autor.jpg">
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://discord.com/users/613098671503835164" class="outbound" target="_blank"><span><strong>Cooper</strong></span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></div>
+        </div>
+    </div>
+    <div class="mx-2">&#9679;</div>
+    <div class="flex items-center shrink-0">Publicado&nbsp;<span>2026-02-08</span></div>
+</div>
+
+<p>El módulo de Moderación de Sapphire es complejo, altamente personalizable y ofrece una amplia gama de comandos.</p>
+<p>La siguiente página proporciona una <strong>descripción general</strong> de cómo funciona el <strong>sistema de moderación</strong> de Sapphire en su núcleo, qué características ofrece y <strong>cómo configurarlo</strong> a través del panel de control de Sapphire.</p>
+<p>Puedes encontrar una lista de todos los comandos de moderación filtrándolos en la sección <strong>Commands ➜ Default Commands</strong> (Comandos ➜ Comandos Predeterminados) del panel de control de Sapphire.</p>
+<doc-anchor-target id="casos">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#casos">#</doc-anchor-trigger>
+        <span>Casos</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Introducción</strong>
+El sistema de moderación de Sapphire utiliza <strong>casos</strong> para <strong>almacenar la información de las sanciones</strong>. Cada vez que se realiza una acción de sanción moderativa, Sapphire genera un ID de caso que sirve como un identificador único para esa sanción. Una <strong>sanción se refiere a</strong> un baneo (<em>ban</em>), silencio (<em>mute</em>), expulsión (<em>kick</em>) o advertencia (<em>warn</em>).</p>
+<p>Un caso almacena su <strong>ID de caso</strong>, <strong>tipo de sanción</strong>, <strong>ID de usuario</strong>, <strong>razón</strong>, <strong>duración</strong>, <strong>fecha de creación</strong>, <strong>autor</strong>, <strong>prueba</strong>, <strong>prueba verificada</strong> y <strong>notas del moderador</strong>, junto con los <strong>últimos cinco mensajes</strong> del usuario sancionado por canal. Si está habilitado, Sapphire también muestra los mensajes eliminados de ese usuario de los últimos 30 minutos.</p>
+<p><strong>Descripción General</strong>
+El módulo de <strong>Casos</strong> proporciona un resumen completo de todos los Casos de Moderación en un servidor. La información importante sobre la sanción es visible de un vistazo, y se pueden ver más detalles o acciones al hacer clic en cada caso.</p>
+<p>En la página de resumen, es posible hacer lo siguiente:</p>
+<ul>
+<li>Filtrar por <strong>tipo de sanción</strong>, <strong>estado abierto del caso</strong> o <strong>mostrar casos masivos</strong>.</li>
+<li>Editar masivamente, <strong>cerrar</strong> o <strong>eliminar</strong> casos.</li>
+<li>Hacer clic en un caso para ver más detalles sobre el mismo y la sanción.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../assets/mod-rc-1.webp" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><strong>Viendo un caso</strong>
+Para ver más detalles de un caso específico, haz clic en él en la lista. Esto abre la página de detalles del caso.</p>
+<p><strong>Detalles e Información</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>Muestra el ID del caso. El ID del caso es el identificador único de ese caso específico y se puede usar para cerrar, eliminar o buscar un caso.</td>
+</tr>
+<tr>
+<td><strong>State</strong> (Estado)</td>
+<td>Muestra el estado actual de apertura de ese caso.</td>
+</tr>
+<tr>
+<td><strong>Type</strong> (Tipo)</td>
+<td>El tipo de sanción emitida contra el usuario. Tipos posibles: <code translate="no" v-pre>WARN</code>, <code translate="no" v-pre>MUTE</code>, <code translate="no" v-pre>KICK</code>, <code translate="no" v-pre>BAN</code>.</td>
+</tr>
+<tr>
+<td><strong>User</strong> (Usuario)</td>
+<td>Muestra el nombre de usuario de Discord y el ID del usuario sancionado.</td>
+</tr>
+<tr>
+<td><strong>Reason</strong> (Razón)</td>
+<td>Muestra la razón dada para la sanción. Una razón es una breve descripción establecida por el moderador de por qué el usuario fue sancionado.</td>
+</tr>
+<tr>
+<td><strong>Duration</strong> (Duración)</td>
+<td>Muestra la duración de ese caso. Una vez que la duración expira, el usuario dejará de estar sancionado, siempre y cuando no haya otro caso abierto del mismo tipo.</td>
+</tr>
+<tr>
+<td><strong>Created</strong> (Creado)</td>
+<td>Muestra la hora y fecha en que se creó el caso.</td>
+</tr>
+<tr>
+<td><strong>Author</strong> (Autor)</td>
+<td>Muestra el nombre de usuario de Discord y el ID del usuario que ejecutó la sanción. El autor es la persona responsable de tomar la acción, por ejemplo, el moderador.</td>
+</tr>
+<tr>
+<td><strong>Proof</strong> (Prueba)</td>
+<td>Muestra la prueba establecida por un moderador. Esto se puede establecer libremente, pero por lo general debería incluir una captura de pantalla o un enlace al mensaje del mal comportamiento del usuario.</td>
+</tr>
+<tr>
+<td><strong>Verified proof</strong> (Prueba verificada)</td>
+<td>Muestra el contenido del último mensaje enviado por ese usuario, configurado automáticamente por Sapphire.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><figure class="content-center">
+    <img src="../../assets/mod-rc-2.webp" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="reportes-de-usuarios-user-reports">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reportes-de-usuarios-user-reports">#</doc-anchor-trigger>
+        <span>Reportes de Usuarios (User Reports)</span>
+    </h3>
+</doc-anchor-target>
+<p>Los Reportes de Usuarios son una función de Moderación que permite a los usuarios enviar reportes sobre otros usuarios, con opciones personalizables para que los moderadores manejen y gestionen esos reportes.</p>
+<p>Cuando se crea un reporte, envía un mensaje a un canal seleccionado que contiene los detalles del reporte y botones de acción. Los moderadores pueden aceptar o ignorar los reportes, y tomar acciones como ejecutar comandos, abrir casos de moderación o eliminar mensajes.</p>
+<doc-anchor-target id="configuraciones-de-sanciones-punish-settings">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#configuraciones-de-sanciones-punish-settings">#</doc-anchor-trigger>
+        <span>Configuraciones de Sanciones (Punish Settings)</span>
+    </h3>
+</doc-anchor-target>
+<p>La categoría <strong>Configuraciones de Sanciones</strong> te permite cambiar lo que sucede cuando baneas, expulsas, silencias y adviertes, cambiar los valores predeterminados de estos tipos de sanciones y más.</p>
+<p><strong>Todos los valores modificables</strong>
+<em>(Algunos de los siguientes campos pueden no estar disponibles para todas las sanciones).</em></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Configuración</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Default reason</strong> (Razón predeterminada)</td>
+<td>Establece una razón por defecto cuando el moderador no ha proporcionado ninguna.</td>
+</tr>
+<tr>
+<td><strong>Internal reason</strong> (Razón interna)</td>
+<td>La razón que es visible en el Registro de Auditoría (Audit-log) de Discord y para otros bots. Variables: <code translate="no" v-pre>${authorid}</code>, <code translate="no" v-pre>${authortag}</code>, <code translate="no" v-pre>${duration}</code>, <code translate="no" v-pre>${reason}</code>, <code translate="no" v-pre>${currentdate}</code></td>
+</tr>
+<tr>
+<td><strong>Default duration (when using command)</strong> (Duración predeterminada)</td>
+<td>Establece una duración por defecto cuando no se ha proporcionado ninguna.</td>
+</tr>
+<tr>
+<td><strong>Actions on punish</strong> (Acciones al sancionar)</td>
+<td>Ejecuta automáticamente acciones adicionales al sancionar a los usuarios.</td>
+</tr>
+<tr>
+<td><strong>Force reason (when using command)</strong> (Forzar razón)</td>
+<td>Si está habilitado, los moderadores no podrán sancionar a los usuarios sin dar un motivo.</td>
+</tr>
+<tr>
+<td><strong>Always review</strong> (Revisar siempre)</td>
+<td>Si está habilitado, los moderadores deben revisar la sanción antes de ejecutarla (equivalente a agregar <code translate="no" v-pre>-r</code> al final de los comandos).</td>
+</tr>
+<tr>
+<td><strong>Delete proof message</strong> (Eliminar mensaje de prueba)</td>
+<td>Si está habilitado, el mensaje del usuario sancionado (&quot;Prueba Verificada&quot;) se elimina automáticamente. <span class="docs-emoji">&#x1F539;</span> <em>Si el comando de sanción se usa como respuesta, el mensaje al que se responde se elimina.</em></td>
+</tr>
+<tr>
+<td><strong>Allow multiple mutes</strong> (Permitir múltiples silencios)</td>
+<td>Si está habilitado, los usuarios pueden tener varios casos de silencio (mute) activos. <span class="docs-emoji">&#x1F539;</span> <em>Si un silencio expira mientras otro sigue activo, no se produce ninguna acción de des-silenciar (unmute).</em> <span class="docs-emoji">&#x1F539;</span> <em>El comando <code translate="no" v-pre>unmute</code> cierra todos los casos de silencio abiertos.</em></td>
+</tr>
+<tr>
+<td><strong>Link with timeouts</strong> (Vincular con aislamientos/timeouts)</td>
+<td>Si está habilitado, los usuarios reciben un aislamiento (timeout) de Discord cuando son silenciados usando Sapphire.</td>
+</tr>
+<tr>
+<td><strong>Extend timeouts</strong> (Extender aislamientos)</td>
+<td>Dado que los aislamientos de Discord no pueden exceder los 28 días, Sapphire renovará automáticamente los aislamientos superiores a 28 días. <span class="docs-emoji">&#x1F539;</span> <em>Los usuarios estarán aislados continuamente.</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Más opciones</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Opción</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reply to message to punish</strong> (Responder al mensaje para sancionar)</td>
+<td>Si está habilitado, responder al mensaje de un usuario con un comando de sanción lo sancionará. El contenido del mensaje del usuario se usará como Prueba Verificada.</td>
+</tr>
+<tr>
+<td><strong>Confirm punishment when recent case exists</strong> (Confirmar sanción cuando existe un caso reciente)</td>
+<td>Si está habilitado, Sapphire pedirá confirmación antes de sancionar a un usuario si este tiene un caso abierto creado recientemente. <span class="docs-emoji">&#x1F539;</span> <em>Esto puede ser útil para evitar que diferentes moderadores emitan la misma sanción dos veces.</em></td>
+</tr>
+<tr>
+<td><strong>Log expired punishments if user is not in guild</strong> (Registrar sanciones caducadas si el usuario no está en el servidor)</td>
+<td>Si está habilitado, las sanciones que caducan seguirán enviando un mensaje de registro (log), incluso si el usuario no está en el servidor.</td>
+</tr>
+<tr>
+<td><strong>Cache deleted messages</strong> (Almacenar mensajes eliminados)</td>
+<td>Si está habilitado, el contenido de todos los mensajes eliminados se almacenará durante 30 minutos para que puedan mostrarse en el historial de mensajes de un caso.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="roles-inmunes-immune-roles">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#roles-inmunes-immune-roles">#</doc-anchor-trigger>
+        <span>Roles Inmunes (Immune roles)</span>
+    </h3>
+</doc-anchor-target>
+<p>Los roles inmunes están exentos de acciones punitivas. Este módulo te permite definir roles que no pueden ser sancionados con Sapphire. Esto evita que los moderadores sancionen accidental o intencionalmente a los administradores u otros miembros con ciertos roles.</p>
+<p>Los roles pueden ser inmunes a tipos específicos de acciones de moderación, agrupados en las siguientes categorías:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Categoría</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Global</strong></td>
+<td>Los roles agregados aquí son inmunes a <em>todos</em> los tipos de acciones de moderación (baneos, expulsiones, silencios, advertencias).</td>
+</tr>
+<tr>
+<td><strong>Bans</strong></td>
+<td>El rol agregado será inmune a los baneos.</td>
+</tr>
+<tr>
+<td><strong>Kicks</strong></td>
+<td>El rol agregado será inmune a las expulsiones.</td>
+</tr>
+<tr>
+<td><strong>Mutes</strong></td>
+<td>El rol agregado será inmune a los silencios.</td>
+</tr>
+<tr>
+<td><strong>Warns</strong></td>
+<td>El rol agregado será inmune a las advertencias.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Para agregar un rol, haz clic en el símbolo <strong>+</strong> dentro del tipo de sanción.</p>
+<p><strong>Usar jerarquía de roles (Use role hierarchy)</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Configuración</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Enabled</strong> (Habilitado)</td>
+<td>Si está habilitado, los usuarios solo pueden tomar acciones de moderación (ej. sanciones) contra miembros con roles inferiores a su rol más alto en la jerarquía de roles del servidor. <span class="docs-emoji">&#x1F539;</span> <em>Esto asegura que los roles de mayor rango no puedan ser sancionados por usuarios de menor rango.</em></td>
+</tr>
+<tr>
+<td><strong>Disabled</strong> (Deshabilitado)</td>
+<td>Si está deshabilitado, puedes seleccionar manualmente qué roles deben ser inmunes a sanciones específicas, independientemente de su posición en la jerarquía de roles.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="notificaciones-de-usuario">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notificaciones-de-usuario">#</doc-anchor-trigger>
+        <span>Notificaciones de usuario</span>
+    </h3>
+</doc-anchor-target>
+<p>Elige si deseas notificar a los usuarios por mensaje directo (DM) cuando son sancionados o cuando se les retira la sanción.</p>
+<ul>
+<li><strong>Notify users on punish</strong> (Notificar a los usuarios al sancionar): Si está habilitado, los usuarios que sean sancionados recibirán un mensaje directo de Sapphire. Esto incluye las sanciones a través del AutoMod de Sapphire y mediante comandos.</li>
+<li><strong>Notify users on unpunish</strong> (Notificar a los usuarios al retirar sanción): Si está habilitado, los usuarios a los que se les retire la sanción recibirán un mensaje directo de Sapphire. Esto incluye vencimientos (cuando acaba el tiempo) y retiros de sanciones por comando.</li>
+<li><strong>Notify users on punish by another user/bot</strong> (Notificar al sancionar por otro usuario/bot): Si está habilitado, los usuarios que sean sancionados manualmente en Discord o por otro bot recibirán un mensaje directo de Sapphire.</li>
+<li><strong>Notify users on unpunish by another user/bot</strong> (Notificar al retirar sanción por otro usuario/bot): Si está habilitado, los usuarios a los que se les retire la sanción manualmente en Discord o por otro bot recibirán un mensaje directo de Sapphire.</li>
+</ul>
+<doc-anchor-target id="razones-predefinidas-predefined-reasons">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#razones-predefinidas-predefined-reasons">#</doc-anchor-trigger>
+        <span>Razones Predefinidas (Predefined Reasons)</span>
+    </h3>
+</doc-anchor-target>
+<p>La categoría de <strong>Razones Predefinidas</strong> de la función de moderación te permite preconfigurar motivos para las sanciones. Se pueden usar <em>alias</em> para mostrar la razón completa configurada en el panel de control.</p>
+<p>Por ejemplo, si defines &quot;Comportamiento inapropiado&quot; como una razón predefinida con el alias <code translate="no" v-pre>r1</code>, puedes escribir <code translate="no" v-pre>mute @user r1</code>, y el caso de moderación resultante mostrará &quot;Comportamiento inapropiado&quot; como la razón completa.</p>
+<doc-anchor-target id="bloqueo-de-canales-channel-locking">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bloqueo-de-canales-channel-locking">#</doc-anchor-trigger>
+        <span>Bloqueo de Canales (Channel Locking)</span>
+    </h3>
+</doc-anchor-target>
+<p>Bloquea canales en un servidor usando los comandos <code translate="no" v-pre>lock</code> y <code translate="no" v-pre>unlock</code>. Bloquear canales evita que los usuarios envíen mensajes o se unan a canales de voz.</p>
+<p><strong>Roles ignorados (Ignored roles)</strong>
+Los roles añadidos a esta lista <strong>son ignorados por el sistema de bloqueo de canales</strong> de Sapphire. Esto significa que Sapphire no modificará sus permisos al bloquear un canal. Sin embargo, si no existen anulaciones de permisos explícitas para estos roles, <strong>aún pueden verse afectados</strong> por el bloqueo, impidiéndoles enviar mensajes o unirse a canales de voz.</p>
+<p>Cuando se desbloquea un canal, <strong>todos los permisos vuelven a su estado anterior</strong>, lo que significa que cualquier cambio realizado mientras el canal estaba bloqueado se descartará.</p>
+<p><strong>Canales a bloquear al usar <code translate="no" v-pre>lockall</code></strong>
+Los canales añadidos a esta lista se bloquearán simultáneamente al ejecutar el comando <code translate="no" v-pre>lockall</code>.</p>
+<doc-anchor-target id="privacidad">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#privacidad">#</doc-anchor-trigger>
+        <span>Privacidad</span>
+    </h3>
+</doc-anchor-target>
+<p>La página de <strong>Privacidad</strong> te permite configurar qué <strong>información de los casos es visible</strong> para los usuarios.</p>
+<p><strong>Detalles del mensaje de salida del comando</strong>
+Los detalles que se agregan en este campo serán visibles en todos los mensajes de salida de los comandos relacionados con la Moderación, por ejemplo, después de ejecutar un comando de sanción. Se pueden mostrar los siguientes detalles:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Variable</th>
+<th>Explicación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Verified Proof</strong></td>
+<td>Muestra la Prueba Verificada de un caso en el mensaje de salida.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td>Muestra el ejecutor de la sanción en el mensaje de salida.</td>
+</tr>
+<tr>
+<td><strong>Proof</strong></td>
+<td>Muestra la Prueba de un caso en el mensaje de salida.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Detalles del mensaje directo (DM)</strong>
+Los detalles agregados a este campo serán visibles en todos los mensajes de notificación directos. Se pueden mostrar los mismos detalles (Prueba Verificada, Autor, Prueba).</p>
+<p><strong>Purgar mensajes fijados (Purge pinned messages)</strong>
+Elige si los <strong>mensajes fijados</strong> en un canal deben ser <strong>eliminados</strong> al usar el comando <code translate="no" v-pre>purge</code>.</p>
+<hr>
+<doc-anchor-target id="resumen-de-comandos">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#resumen-de-comandos">#</doc-anchor-trigger>
+        <span>Resumen de comandos</span>
+    </h3>
+</doc-anchor-target>
+<p><em>(Esta función también se puede configurar y gestionar a través del panel de control de Sapphire).</em></p>
+<p><strong>Crear sanciones</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descripción</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>ban</code></td>
+<td>Banea a un usuario del servidor. Añade <code translate="no" v-pre>-r</code> para revisar la sanción en un menú modal.</td>
+<td><code translate="no" v-pre>ban [usuario] [duración] [razón] [-r]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>kick</code></td>
+<td>Expulsa a un usuario del servidor. Añade <code translate="no" v-pre>-r</code> para revisar la sanción.</td>
+<td><code translate="no" v-pre>kick [usuario] [razón] [-r]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>mute</code></td>
+<td>Silencia a un usuario. Añade <code translate="no" v-pre>-r</code> para revisar la sanción.</td>
+<td><code translate="no" v-pre>mute [usuario] [duración] [razón] [-r]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>warn</code></td>
+<td>Advierte a un usuario. Añade <code translate="no" v-pre>-r</code> para revisar la sanción.</td>
+<td><code translate="no" v-pre>warn [usuario] [duración] [razón] [-r]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>massban</code></td>
+<td>Banea a múltiples usuarios a la vez (el tiempo y la razón se configuran después).</td>
+<td><code translate="no" v-pre>massban [usuario2] …</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>masskick</code></td>
+<td>Expulsa a múltiples usuarios a la vez.</td>
+<td><code translate="no" v-pre>masskick [usuario2] …</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>massmute</code></td>
+<td>Silencia a múltiples usuarios a la vez.</td>
+<td><code translate="no" v-pre>massmute [usuario2] …</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>masswarn</code></td>
+<td>Advierte a múltiples usuarios a la vez.</td>
+<td><code translate="no" v-pre>masswarn [usuario2] …</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>nameban</code></td>
+<td>Banea a todos los usuarios que tengan <code translate="no" v-pre>&lt;nombre&gt;</code> en su usuario/apodo. Añade <code translate="no" v-pre>-f</code> para buscar el nombre completo.</td>
+<td><code translate="no" v-pre>nameban &lt;nombre&gt; [-f]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>namekick</code></td>
+<td>Expulsa a todos los usuarios que tengan <code translate="no" v-pre>&lt;nombre&gt;</code>.</td>
+<td><code translate="no" v-pre>namekick &lt;nombre&gt; [-f]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>namemute</code></td>
+<td>Silencia a todos los usuarios que tengan <code translate="no" v-pre>&lt;nombre&gt;</code>.</td>
+<td><code translate="no" v-pre>namemute &lt;nombre&gt; [-f]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>namewarn</code></td>
+<td>Advierte a todos los usuarios que tengan <code translate="no" v-pre>&lt;nombre&gt;</code>.</td>
+<td><code translate="no" v-pre>namewarn &lt;nombre&gt; [-f]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>timeban</code></td>
+<td>Banea a usuarios que crearon su cuenta hace <code translate="no" v-pre>&lt;tiempo&gt;</code> o se unieron hace <code translate="no" v-pre>&lt;tiempo&gt;</code>.</td>
+<td><code translate="no" v-pre>timeban &lt;created/joined&gt; &lt;tiempo&gt; [duración] [razón]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>timekick</code></td>
+<td>Expulsa a usuarios según creación de cuenta o unión.</td>
+<td><code translate="no" v-pre>timekick &lt;created/joined&gt; &lt;tiempo&gt; [razón]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>timemute</code></td>
+<td>Silencia a usuarios según creación de cuenta o unión.</td>
+<td><code translate="no" v-pre>timemute &lt;created/joined&gt; &lt;tiempo&gt; [duración] [razón]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>timewarn</code></td>
+<td>Advierte a usuarios según creación de cuenta o unión.</td>
+<td><code translate="no" v-pre>timewarn &lt;created/joined&gt; &lt;tiempo&gt; [razón]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Deshacer sanciones</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descripción</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>unban</code></td>
+<td>Desbanea a un usuario del servidor.</td>
+<td><code translate="no" v-pre>unban [razón]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>unmute</code></td>
+<td>Cierra todos los silencios de un usuario.</td>
+<td><code translate="no" v-pre>unmute [razón]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>unwarn</code></td>
+<td>Cierra todas las advertencias de un usuario.</td>
+<td><code translate="no" v-pre>unwarn</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Gestionar casos de sanción</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descripción</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>casedelete</code></td>
+<td>Elimina un caso.</td>
+<td><code translate="no" v-pre>casedelete</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>caseinfo</code></td>
+<td>Muestra información sobre un caso.</td>
+<td><code translate="no" v-pre>caseinfo [ID del caso]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>caselist</code></td>
+<td>Muestra una lista de los casos más nuevos (incluyendo los usuarios especificados).</td>
+<td><code translate="no" v-pre>caselist [usuario] [usuario]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>caseupdate</code></td>
+<td>Actualiza un caso específico.</td>
+<td><code translate="no" v-pre>caseupdate [ID del caso] [razón/tiempo [razón]]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>caseclose</code></td>
+<td>Cierra un caso específico.</td>
+<td><code translate="no" v-pre>caseclose [razón]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>setproof</code></td>
+<td>Establece la prueba (proof) para un caso.</td>
+<td><code translate="no" v-pre>setproof [ID del caso]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Moderación de canales</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descripción</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>lock</code></td>
+<td>Bloquea un canal de texto o voz. Al bloquear voz, todos son expulsados del canal. Añade <code translate="no" v-pre>+v</code>, <code translate="no" v-pre>+t</code> (o <code translate="no" v-pre>+vt</code>) para revocar permisos de ver/hilos. Añade <code translate="no" v-pre>+s</code> para bloquear silenciosamente.</td>
+<td><code translate="no" v-pre>lock [canal] [razón] [+(v/t/s)]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>lockall</code></td>
+<td>Bloquea todos los canales configurados en el panel de control.</td>
+<td><code translate="no" v-pre>lockall [razón] [+(v/t/s)]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>unlock</code></td>
+<td>Desbloquea un canal. Añade <code translate="no" v-pre>+s</code> para hacerlo en silencio.</td>
+<td><code translate="no" v-pre>unlock [canal] [razón] [+s]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>unlockall</code></td>
+<td>Desbloquea todos los canales. Añade <code translate="no" v-pre>+l</code> para solo desbloquear los bloqueados con <em>lockall</em>.</td>
+<td><code translate="no" v-pre>unlockall [razón] [+l/s]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>purge</code></td>
+<td>Elimina mensajes masivamente (por cantidad, por tiempo o entre dos mensajes). Opcionalmente de un solo usuario.</td>
+<td><code translate="no" v-pre>purge &lt;cantidad/tiempo/ID mensaje&gt; [entre segundo ID/usuario] [usuario]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>setslowmode</code></td>
+<td>Establece el modo lento (slowmode) de un canal.</td>
+<td><code translate="no" v-pre>setslowmode [canal]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Información del usuario</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descripción</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>userinfo</code></td>
+<td>Obtiene información sobre un usuario.</td>
+<td><code translate="no" v-pre>userinfo [usuario]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>roleinfo</code></td>
+<td>Obtiene información sobre todos los roles / un rol específico.</td>
+<td><code translate="no" v-pre>roleinfo [rol]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>warns</code></td>
+<td>Obtiene todas las advertencias sobre un usuario.</td>
+<td><code translate="no" v-pre>warns [usuario]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>usernotes</code></td>
+<td>Recibe todas las notas sobre un usuario o añade una.</td>
+<td><code translate="no" v-pre>usernotes [nota a añadir]</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Moderación: Reportes de Usuarios (User Reports)</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descripción</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>report</code></td>
+<td>Denuncia a un usuario al equipo de moderación del servidor.</td>
+<td><code translate="no" v-pre>report &lt;usuario/url del mensaje&gt; [comentario]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>report-blacklist</code></td>
+<td>Bloquea a los usuarios para que no puedan usar el comando report.</td>
+<td><code translate="no" v-pre>report-blacklist &lt;show/add/remove&gt; [ID del usuario]</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>report-ignoreall</code></td>
+<td>Ignora todos los reportes abiertos en tu servidor a la vez sin notificar.</td>
+<td><code translate="no" v-pre>report-ignoreall</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>report-sendmissing</code></td>
+<td>Los mensajes informativos de los reportes no deben eliminarse. Ejecuta este comando para traer de vuelta mensajes eliminados de reportes.</td>
+<td><code translate="no" v-pre>report-sendmissing</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Misceláneo (Miscellaneous)</strong></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descripción</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code translate="no" v-pre>linkcaseview</code></td>
+<td>Vincula la vista de casos de este servidor con otro, para que ambos puedan ver los casos del otro.</td>
+<td><code translate="no" v-pre>linkcaseview</code></td>
+</tr>
+<tr>
+<td><code translate="no" v-pre>predefinedreasons</code></td>
+<td>Gestiona las razones predefinidas para las sanciones.</td>
+<td><code translate="no" v-pre>predefinedreasons</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>TS-1</p>
+
+                <div id="retype-tags" class="flex items-center mt-6 mb-6 clear-both">
+                    <span>
+                        <a href="../../tags/">
+                            <svg class="inline-block -mb-px mr-1.5 text-body-link hover:text-body-link-hover" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" overflow="visible" fill="currentColor"><g><path d="M21.3 9.88l-8.59-8.59C12.52 1.11 12.27 1 12 1H2c-.55 0-1 .45-1 1v10c0 .27.11.52.29.71l8.59 8.58c.57.57 1.32.88 2.12.88s1.55-.31 2.12-.88l7.17-7.17a3.009 3.009 0 00.01-4.24zm-1.42 2.82l-7.17 7.17c-.39.39-1.02.39-1.42 0L3 11.59V3h8.59l8.29 8.29c.39.39.39 1.03 0 1.41z" /><path d="M7.01 6C6.45 6 6 6.45 6 7s.45 1 1 1 1-.45 1-1-.44-1-.99-1z" /></g></svg>
+                        </a>
+                        <span class="mr-2"><a href="../../tags/test/" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border hover:text-badge-info-text-hover hover:bg-badge-info-hover hover:border-badge-info-border-hover transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+                    <span>test</span>
+                </a></span>
+                    </span>
+                </div>
+
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+            </div>
+            <footer id="retype-content-footer" class="clear-both">
+            
+            </footer>
+        </main>
+
+        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                <div id="retype-footer-links" class="print:hidden">
+                    <ul class="flex flex-wrap items-center text-sm">
+                    </ul>
+                </div>
+                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:translate-x-0 sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+        </div>
+    </div>
+
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Moderacion", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
