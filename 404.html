@@ -4,66 +4,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página no encontrada - Reino Estelar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background: #0d1117;
+      background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
       color: #e6edf3;
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', Arial, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
       text-align: center;
-      padding: 0 20px;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 600px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
     h1 {
-      font-size: 4rem;
+      font-size: 8rem;
       margin: 0;
       color: #ff6b6b;
+      text-shadow: 0 0 20px rgba(255, 107, 107, 0.5);
+      font-weight: 700;
+    }
+    .subtitle {
+      font-size: 1.5rem;
+      margin: 10px 0 20px;
+      color: #c9d1d9;
+      font-weight: 400;
     }
     p {
-      font-size: 1.2rem;
-      margin: 10px 0;
+      font-size: 1.1rem;
+      margin: 15px 0;
+      line-height: 1.6;
+    }
+    .buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 0;
     }
     a {
       display: inline-block;
-      padding: 10px 20px;
-      background: #238636;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #238636 0%, #2ea043 100%);
       color: white;
       text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-      transition: background 0.3s ease;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(35, 134, 54, 0.3);
     }
     a:hover {
-      background: #2ea043;
+      background: linear-gradient(135deg, #2ea043 0%, #238636 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(35, 134, 54, 0.4);
+    }
+    .secondary-link {
+      background: transparent;
+      border: 2px solid #58a6ff;
+      color: #58a6ff;
+      box-shadow: none;
+    }
+    .secondary-link:hover {
+      background: #58a6ff;
+      color: white;
     }
     .contacto {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 0.95rem;
       color: #8b949e;
+      border-top: 1px solid #30363d;
+      padding-top: 20px;
     }
     .contacto a {
       color: #58a6ff;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
     .contacto a:hover {
       text-decoration: underline;
     }
+    .icon {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      opacity: 0.7;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 6rem;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+      }
+      .buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>404</h1>
-  <p>La página que buscas no existe o fue movida.</p>
-  <a href="/">Volver al inicio</a>
+  <div class="container">
+    <div class="icon">🚀</div>
+    <h1>404</h1>
+    <p class="subtitle">Página no encontrada</p>
+    <p>La página que buscas no existe o pudo haber sido movida. No te preocupes, ¡te ayudamos a encontrar el camino!</p>
+    
+    <div class="buttons">
+      <a href="/">🏠 Volver al inicio</a>
+      <a href="/Guia-de-moderacion/" class="secondary-link">📖 Ir a la Guía de Moderación</a>
+      <a href="/Reino-Estelar/" class="secondary-link">⭐ Explorar Reino Estelar</a>
+    </div>
 
-  <p class="contacto">
-    ¿Necesitas ayuda? Contáctate con 
-    <a href="https://discord.com/users/613098671503835164" target="_blank">Cooper</a> 
-    para darle seguimiento al error.
-  </p>
+    <p class="contacto">
+      ¿Necesitas ayuda adicional? Contáctate con 
+      <a href="https://discord.com/users/613098671503835164" target="_blank">Cooper</a> 
+      para darle seguimiento al error.
+    </p>
+  </div>
 </body>
 </html>
