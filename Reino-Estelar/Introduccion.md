@@ -6,6 +6,10 @@ author:
 date: 2025-08-20
 tags:
   - Introducción
+backlinks:
+  enabled: true
+  title: "Se menciona en estas guías:"
+  maxResults: 5
 ---
 
 Bienvenido al apartado de reglas. Aquí podrás ver a detalle las normas y directrices que rigen nuestra comunidad. Es fundamental que todos los miembros las conozcan y respeten para asegurar un ambiente agradable y seguro para todos.

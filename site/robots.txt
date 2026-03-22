@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://AngelMXD.github.io/R-NET/sitemap.xml.gz

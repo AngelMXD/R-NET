@@ -4,12 +4,14 @@ author:
   name: "[**Cooper**](https://discord.com/users/613098671503835164)"
   avatar: "/assets/imagen-autor.jpg"
 date: 2026-02-08
-visibility: 
-tags:
-  - Test
 
 ---
 
+---
+
+//## El conenido es del bot "Sapphire", solamente se realizo la traduccion.
+
+---
 
 El módulo de Moderación de Sapphire es complejo, altamente personalizable y ofrece una amplia gama de comandos.
 

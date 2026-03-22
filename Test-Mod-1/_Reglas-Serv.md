@@ -4,11 +4,14 @@ author:
   name: "[**Cooper**](https://discord.com/users/613098671503835164)"
   avatar: "/assets/imagen-autor.jpg"
 date: 2025-12-25
-tags:
-  - politicas
+
 ---
 
+---
 
+//## Contenido no oficial, no se implementa en el producto final
+
+---
 
 Este servidor se rige por los [**Términos de Servicio**](https://discord.com/terms#1) y [**Directivas de la Comunidad**](/2.Guia-de-moderacion/6️⃣-📑-ToS-de-Discord/Directivas_de_la_Comunidad_de_Discord.md) de la plataforma, por lo que se pide acatar el reglamento establecido en dichos documentos.
 

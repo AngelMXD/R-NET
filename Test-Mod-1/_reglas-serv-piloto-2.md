@@ -1,6 +1,10 @@
 # ⚖️ Reglamento del Servidor — Versión Mejorada
 
+---
 
+//## Contenido no oficial, no se implementa en el producto final
+
+---
 
 
 ## 1. 🧱 Uso y conducta general

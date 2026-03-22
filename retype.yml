@@ -2,19 +2,23 @@
 input: .
 output: ./site
 
-# DEJAMOS LA URL ORIGINAL PARA QUE LA LLAVE SEA VÁLIDA
+# URL de tu sitio (IMPORTANTE PARA SEO Y FUNCIONES PRO)
 url: https://AngelMXD.github.io/R-NET/
+
+password: "test1234" # Cambia esto por una contraseña segura para proteger tu intranet
 
 branding:
   title: "R-NET"
   logo: /static/logo-reino-estelar.webp
-  label: "v5.0.0"
+  label: "v5.0"
   favicon: /favicon.ico
 
-footer:
-  label: "© R-NET · Intranet Estelar · v5.0.0"
-  branding: false  # <-- Esto quitará la marca de agua ahora que la llave sea válida
 
+footer:
+  copyright: "© R-NET · Intranet Estelar · v5.0 · Última actualización: Marzo 2026" 
+  branding: false  
+
+# Texto personalizado para la opcion de búsqueda
 search:
   enabled: true
   placeholder: "Buscar en la intranet..."
@@ -22,8 +26,28 @@ search:
 locale: es
 
 hosting:
-  # AQUÍ ES DONDE REALMENTE SE CONECTA TU DOMINIO
+  # Dominio oficial
   cname: reinoestelar.com
 
 sitemap:
   enabled: true
+
+
+
+editor:
+  enabled: true
+  repo: https://github.com/AngelMXD/R-NET/blob/main/{{ path }}
+  text: "Sugerir un cambio en GitHub"
+
+
+
+theme:
+  base:
+    base-link-weight: 500            # Slightly bolder links
+    nav-item-text-active-weight: 800 # Bold active navigation
+    heading-text: "#1a202c"          # Darker headings
+    base-color: "#8839ef"
+
+backlinks:
+  enabled: true
+  label: "Se menciona en estas guías:" # Texto de suguerenciaal para la sección de backlinks

@@ -37,7 +37,7 @@
   X-Content-Type-Options: nosniff
 
 # =========================
-# Fuentes (si usas desde subdominios propios)
+# Fuentes
 # =========================
 /static/fonts/*
   Access-Control-Allow-Origin: *
