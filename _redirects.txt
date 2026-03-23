@@ -13,6 +13,3 @@
 /old-page                   /new-page                   301
 /antiguo                    /acerca                     301
 
-# --- FIX: SPA Routing para Retype ---
-# Cambiamos el 404 por un rewrite al index para que el JS de Retype maneje la ruta
-/* /index.html                 200
