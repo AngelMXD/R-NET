@@ -1,12 +1,12 @@
-
 export default async (request, context) => {
     const url = new URL(request.url);
     
-    
+
     if (url.pathname.toLowerCase().includes("guia-de-moderacion")) {
         const authHeader = request.headers.get("authorization");
         
-        const expectedAuth = "Basic " + btoa("staff:FnxQT25njl");
+
+        const expectedAuth = "Basic c3RhZmY6Rm54UVQyNW5qbA==";
 
         if (authHeader !== expectedAuth) {
             return new Response("Acceso Restringido al Staff de R-NET", {
@@ -18,4 +18,9 @@ export default async (request, context) => {
         }
     }
     return context.next();
+};
+
+
+export const config = {
+    path: "/*"
 };
