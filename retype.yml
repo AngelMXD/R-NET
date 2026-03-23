@@ -5,8 +5,7 @@ output: site
 # URL REAL (Esto arregla el error de CNAME y activa el PWA)
 url: https://reinoestelar.com
 
-# Borramos la sección 'hosting' con el cname de abajo porque Netlify ya lo gestiona solo
-# y así evitamos el error de validación de Retype.
+password: "test1234"
 
 branding:
   title: "R-NET"
@@ -43,7 +42,7 @@ backlinks:
   enabled: true
   label: "Se menciona en estas guías:"
 
-# Configuración crítica para tu Honor 200 Pro (PWA)
+
 meta:
   - name: apple-mobile-web-app-title
     content: R-NET
