@@ -1,11 +1,12 @@
 # Configuración R-NET - Reino Estelar 2026
 input: .
-output: ./site
+output: site
 
-# URL de tu sitio (IMPORTANTE PARA SEO Y FUNCIONES PRO)
-url: https://AngelMXD.github.io/R-NET/
+# URL REAL (Esto arregla el error de CNAME y activa el PWA)
+url: https://reinoestelar.com
 
-password: "test1234" # Cambia esto por una contraseña segura para proteger tu intranet
+# Borramos la sección 'hosting' con el cname de abajo porque Netlify ya lo gestiona solo
+# y así evitamos el error de validación de Retype.
 
 branding:
   title: "R-NET"
@@ -13,50 +14,37 @@ branding:
   label: "v5.0"
   favicon: favicon.ico
 
-
 footer:
-  copyright: "© R-NET · Intranet Estelar · v5.0 · Última actualización: Marzo 2026" 
+  copyright: "© R-NET · Intranet Estelar · v5.0 · 2026" 
   branding: false  
 
-# Texto personalizado para la opcion de búsqueda
 search:
   enabled: true
   placeholder: "Buscar en la intranet..."
 
 locale: es
 
-hosting:
-  # Dominio oficial
-  cname: reinoestelar.com
-
 sitemap:
   enabled: true
-
-
 
 editor:
   enabled: true
   repo: https://github.com/AngelMXD/R-NET/blob/main/{{ path }}
   text: "Sugerir un cambio en GitHub"
 
-
-
 theme:
   base:
-    base-link-weight: 500            # Slightly bolder links
-    nav-item-text-active-weight: 800 # Bold active navigation
-    heading-text: "#1a202c"          # Darker headings
+    base-link-weight: 500
+    nav-item-text-active-weight: 800
+    heading-text: "#1a202c"
     base-color: "#8839ef"
 
 backlinks:
   enabled: true
-  label: "Se menciona en estas guías:" # Texto de suguerenciaal para la sección de backlinks
+  label: "Se menciona en estas guías:"
 
-
-
-
-
-  meta:
+# Configuración crítica para tu Honor 200 Pro (PWA)
+meta:
   - name: apple-mobile-web-app-title
     content: R-NET
   - name: application-name
