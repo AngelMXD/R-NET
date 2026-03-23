@@ -1,4 +1,5 @@
-.retype/
-retype_output/
 node_modules/
+_retype/
+.retype/
 .DS_Store
+*.log

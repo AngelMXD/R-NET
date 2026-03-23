@@ -9,9 +9,9 @@ password: "test1234" # Cambia esto por una contraseña segura para proteger tu i
 
 branding:
   title: "R-NET"
-  logo: /static/logo-reino-estelar.webp
+  logo: logo-reino-estelar.webp
   label: "v5.0"
-  favicon: /favicon.ico
+  favicon: favicon.ico
 
 
 footer:
@@ -51,3 +51,20 @@ theme:
 backlinks:
   enabled: true
   label: "Se menciona en estas guías:" # Texto de suguerenciaal para la sección de backlinks
+
+
+
+
+
+  meta:
+  - name: apple-mobile-web-app-title
+    content: R-NET
+  - name: application-name
+    content: R-NET
+  - link:
+      rel: apple-touch-icon
+      sizes: 180x180
+      href: apple-touch-icon.png
+  - link:
+      rel: manifest
+      href: manifest.json
