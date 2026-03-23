@@ -5,7 +5,6 @@ output: site
 # URL REAL (Esto arregla el error de CNAME y activa el PWA)
 url: https://reinoestelar.com
 
-password: "test1234"
 
 branding:
   title: "R-NET"
