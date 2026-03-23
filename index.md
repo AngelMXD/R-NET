@@ -3,20 +3,24 @@ title: "R-NET"
 author:
   name: "[**Cooper**](https://discord.com/users/613098671503835164)"
   avatar: "/assets/imagen-autor.jpg"
-date: 2026-03-16
+date: 2026-03-22
 
 ---
 
-#  🌠 Bienvenid@ a la Guia de moderacion
+#  🌠 Centro de Soluciones R-NET
 
-![](/assets/Imagen_ilustrativa_1.webp){.rounded-lg width="900" loading="lazy" decoding="async"}
+
+![](/assets/Centro-de-Soluciones-R.NET.png){.rounded-lg width="100%" loading="lazy" decoding="async"}
+
+
+
 
 Bienvenido a la intranet de Reino Estelar, en esta página será un "Todo en uno", donde podrás encontrar la información necesaria para tu labor como moderador e información valiosa como usuario.
 
 ¡Esperamos que disfrutes tu experiencia y aprendas mucho mientras navegas por la intranet!
 
 ---------
-![:icon-file-code: Versión 4.0.0](/assets/reinoestelar.webp){.rounded-lg width="900" loading="lazy" decoding="async"}
+![:icon-file-code: Versión v5.0.0](/assets/reinoestelar.webp){.rounded-lg width="900" loading="lazy" decoding="async"}
 
 Puedes darle clic a la sección que quieras; funciona como acceso rápido a cada recurso.
 
@@ -59,5 +63,25 @@ Puedes darle clic a la sección que quieras; funciona como acceso rápido a cada
  - [5.5 ❯ 📚 Recursos Oficiales de Discord](/Guia-de-moderacion/5️⃣-📚-Recursos/5.4-❯-Recursos-Oficiales-de-Discord.md)
 
 ===
+
+---
+
+!!!tip 🛠️ Renovación de Marzo: Más rápidos y seguros (v5.0)
+
+Hemos estado trabajando duro en los recientes cambios para renovar por completo la página web. Se limpió el código, se mejoró el rendimiento y se añadieron nuevas medidas de seguridad. Si quieres conocer todos los detalles de esta actualización, te invito a echarle un vistazo a nuestro registro de cambios.
+
+[!card](/Actualizaciones/Actualizacion-marzo.md) 
+
+!!!
+
+
+
+
+
+
+
+
+
+
 
 

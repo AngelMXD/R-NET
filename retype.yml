@@ -26,9 +26,7 @@ sitemap:
   enabled: true
 
 editor:
-  enabled: true
-  repo: https://github.com/AngelMXD/R-NET/blob/main/{{ path }}
-  text: "Sugerir un cambio en GitHub"
+  enabled: false
 
 theme:
   base:

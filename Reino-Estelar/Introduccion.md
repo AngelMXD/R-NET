@@ -19,3 +19,4 @@ Bienvenido al apartado de reglas. Aquí podrás ver a detalle las normas y direc
 Así que siéntete libre de explorar más a fondo la **R-NET**. En las siguientes páginas te daré explicaciones más detalladas sobre cada regla y su aplicación.
 
 
+[!card](/Reino-Estelar/Introduccion.md)
