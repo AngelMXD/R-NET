@@ -10,7 +10,7 @@ date: 2026-03-22
 #  🌠 Bienvenid@ al Centro de Soluciones R-NET
 
 
-![](/assets/Centro-de-Soluciones-R.NET.png){.rounded-lg width="100%" loading="lazy" decoding="async"}
+![](/assets/Centro-de-Soluciones-R.NET.webp){.rounded-lg width="100%" loading="eager" fetchpriority="high"}
 
 
 
