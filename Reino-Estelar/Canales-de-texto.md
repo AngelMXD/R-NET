@@ -10,6 +10,7 @@ tags:
 ---
 
 ![](/assets/reglas-server.webp){.rounded-lg width="900"}
+
 Bienvenido a la sección de **Canales de texto**. Aquí encontrarás las políticas y normas que rigen el uso de los canales de texto en el servidor de Reino Estelar.
 
 ---
