@@ -7,7 +7,7 @@
 **🆕 Novedades**
 
   - **Soporte PWA (Progressive Web App):** R-NET ahora es instalable como una aplicación nativa en dispositivos móviles y de escritorio, con iconografía propia y soporte offline básico.
-  - **Seguridad de Grado Empresarial:** Implementación de un sistema de control de acceso personalizado (Edge Functions) para proteger la `/guia-de-moderacion`, restringiendo la entrada exclusivamente al Staff autorizado mediante contraseña.
+  - **Control de Acceso Basado en Identidad:** Migración del sistema de seguridad de la `/guia-de-moderacion`,a **Cloudflare Zero Trust**, validando el ingreso mediante cuentas de Google autorizadas y sesiones con expiración automática para máxima protección.
   - **Protección CSP (Content Security Policy):** Despliegue de cabeceras de seguridad estrictas para blindar la intranet contra inyecciones de código malicioso y ataques XSS.
   - Implementación de un sistema de notificaciones para actualizaciones importantes. (Fase de prueba)
 
