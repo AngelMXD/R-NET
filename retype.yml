@@ -2,8 +2,6 @@
 input: .
 output: site
 
-# Activar modo Pro/Trial en la raíz del archivo
-pro: true
 
 # URL REAL (Esto arregla el error de CNAME y activa el PWA)
 url: https://reinoestelar.com
