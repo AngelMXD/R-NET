@@ -1,6 +1,6 @@
 {
   "version": "4.1.0",
-  "created": "2026-03-21T05:53:49Z",
+  "created": "2026-10-10T02:12:40Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -273,6 +273,9 @@
       "old": true
     },
     {
+      "path": "actualizaciones\\actualizacion-marzo\\index.html"
+    },
+    {
       "path": "actualizaciones\\index.html",
       "old": true
     },
@@ -289,6 +292,12 @@
     },
     {
       "path": "assets\\banner-sapphire-logo.png"
+    },
+    {
+      "path": "assets\\centro-de-soluciones-r.net.webp"
+    },
+    {
+      "path": "assets\\centro-desoluciones-r.net.png"
     },
     {
       "path": "assets\\changelog-3.0.0-rendimiento.png"
@@ -539,8 +548,16 @@
       "path": "assets\\reinoestelar.webp"
     },
     {
-      "path": "CNAME",
-      "old": true
+      "path": "byte\\index.html"
+    },
+    {
+      "path": "byte\\privacidad\\index.html"
+    },
+    {
+      "path": "byte\\terminos\\index.html"
+    },
+    {
+      "path": "CNAME"
     },
     {
       "path": "favicon.ico"
@@ -659,23 +676,35 @@
       "path": "guia-de-moderacion\\recursos\\pl9\\index.html"
     },
     {
+      "path": "head.html"
+    },
+    {
       "path": "index.html"
     },
     {
+      "path": "logo-reino-estelar.webp"
+    },
+    {
       "path": "logs\\purgecss-rejected.txt"
+    },
+    {
+      "path": "manifest.json"
     },
     {
       "path": "mod-test-1\\index.html",
       "old": true
     },
     {
-      "path": "netlify\\edge-functions\\protect.js"
+      "path": "netlify\\edge-functions\\protect.js",
+      "old": true
     },
     {
-      "path": "package-lock.json"
+      "path": "package-lock.json",
+      "old": true
     },
     {
-      "path": "package.json"
+      "path": "package.json",
+      "old": true
     },
     {
       "path": "pagina-web-logo.png",
@@ -761,7 +790,8 @@
       "old": true
     },
     {
-      "path": "static\\custom.min.css"
+      "path": "static\\custom.min.css",
+      "old": true
     },
     {
       "path": "static\\discord-logo.png",
@@ -777,7 +807,8 @@
       "path": "static\\favicon-32x32.png"
     },
     {
-      "path": "static\\favicon.ico"
+      "path": "static\\favicon.ico",
+      "old": true
     },
     {
       "path": "static\\google_forms_logo.png",
@@ -787,14 +818,16 @@
       "path": "static\\google_forms_logo.webp"
     },
     {
-      "path": "static\\head.html"
+      "path": "static\\head.html",
+      "old": true
     },
     {
       "path": "static\\logo-reino-estelar.gif",
       "old": true
     },
     {
-      "path": "static\\logo-reino-estelar.webp"
+      "path": "static\\logo-reino-estelar.webp",
+      "old": true
     },
     {
       "path": "static\\og-reinoestelar.png"
@@ -818,7 +851,8 @@
       "path": "tags\\recursos\\index.html"
     },
     {
-      "path": "tags\\test\\index.html"
+      "path": "tags\\test\\index.html",
+      "old": true
     },
     {
       "path": "temp_index\\index.html",

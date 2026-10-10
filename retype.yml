@@ -2,9 +2,11 @@
 input: .
 output: site
 
+# Activar modo Pro/Trial en la raíz del archivo
+pro: true
+
 # URL REAL (Esto arregla el error de CNAME y activa el PWA)
 url: https://reinoestelar.com
-
 
 branding:
   title: "R-NET"
@@ -13,8 +15,8 @@ branding:
   favicon: favicon.ico
 
 footer:
-  copyright: "© R-NET · Intranet Estelar · v5.0 · 2026" 
-  branding: false  
+  copyright: "© R-NET · Intranet Estelar · v5.0 · 2026"
+  branding: false
 
 search:
   enabled: true
@@ -39,16 +41,12 @@ backlinks:
   enabled: true
   label: "Se menciona en estas guías:"
 
-
 meta:
-  - name: apple-mobile-web-app-title
-    content: R-NET
-  - name: application-name
-    content: R-NET
-  - link:
-      rel: apple-touch-icon
-      sizes: 180x180
-      href: apple-touch-icon.png
-  - link:
-      rel: manifest
-      href: manifest.json
+  title: R-NET
+  apple-mobile-web-app-title: R-NET
+  application-name: R-NET
+
+# Inyección limpia en el <head> de la página
+head: |
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
