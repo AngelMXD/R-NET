@@ -35,3 +35,9 @@ Podemos actualizar estos términos; la fecha de arriba indica la última versió
 ## 6. Contacto
 
 Correo electrónico: coopercg121@gmail.com
+
+---
+
+## English version
+
+By adding Byte to a Discord server or using its commands, you agree to these terms. Byte is provided free of charge and "as is". You must follow Discord's Terms of Service and Community Guidelines, and you may not use the bot for harassment, spam or abuse. Coins, levels and items are virtual, have no real-world value and cannot be exchanged for money. We may limit access for users or servers that break these terms. Data handling is described in the [Privacy Policy](privacidad.md). Contact: [Your support email]

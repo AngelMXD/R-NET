@@ -52,10 +52,45 @@ El uso y la transferencia de la información recibida de las APIs de Google cump
 - Cualquier usuario o administrador puede pedir que se eliminen sus datos escribiendo al correo de contacto. Atenderemos la solicitud en un plazo máximo de 30 días.
 - El acceso del bot a Google Drive puede revocarse en cualquier momento desde <https://myaccount.google.com/permissions>.
 
-## 5. Cambios en esta política
+## 5. Datos de usuario de Google
+
+| | |
+|---|---|
+| **Datos a los que accede** | Solo los archivos de copia de seguridad que el propio bot crea en el Google Drive del desarrollador (permiso `drive.file`). Ningún otro archivo, ni correo, nombre o foto de perfil. |
+| **Para qué los usa** | Subir y guardar copias de seguridad de los datos del bot. |
+| **Dónde se guardan** | En el Google Drive del desarrollador. El token de acceso se guarda solo en el servidor del bot. |
+| **Con quién se comparten** | Con nadie. No se venden, no se transfieren a terceros y no se usan para publicidad ni para entrenar modelos de inteligencia artificial. |
+| **Cuánto tiempo se conservan** | Hasta que el desarrollador borra las copias o revoca el acceso. |
+| **Cómo eliminarlos** | Revocando el acceso en <https://myaccount.google.com/permissions> y borrando los archivos de Drive, o escribiendo al correo de contacto. |
+
+## 6. Cambios en esta política
 
 Si esta política cambia, se actualizará esta página y la fecha de "Última actualización".
 
-## 6. Contacto
+## 7. Contacto
 
-Si tiene alguna pregunta sobre esta política de privacidad, puede escribirnos a: coopercg121@gmail.com
+Si tiene alguna pregunta sobre esta política de privacidad, puede escribirnos a: [Tu correo electrónico de soporte]
+
+---
+
+## English version
+
+**Byte Privacy Policy** (last updated: October 10, 2026)
+
+Byte is a free Discord bot for entertainment, music and moderation. This policy explains what data Byte processes and how it uses Google services.
+
+**1. Google user data accessed.** Only the bot's developer signs in with Google, to authorize backups. Byte requests a single scope, `https://www.googleapis.com/auth/drive.file`, which only allows it to create files in the developer's Google Drive and access the files it created. Byte cannot see, read or modify any other Drive file, and it does not request the user's email address, name or profile picture.
+
+**2. How Google user data is used.** Exclusively to upload and store backups of the bot's own data, so it can be restored if lost or damaged.
+
+**3. Sharing.** Google user data is not sold, shared with or transferred to third parties, and it is not used for advertising or to train AI models.
+
+**4. Storage and protection.** The OAuth token is stored only on the bot's server and is never included in backups. Backups are stored in a private folder of the developer's Google Drive. All communication with Google uses HTTPS.
+
+**5. Retention and deletion.** Backups stay in Drive until the developer deletes them. Access can be revoked at any time at <https://myaccount.google.com/permissions>. Anyone can request deletion of their data by email; requests are handled within 30 days.
+
+**6. Discord data.** To work in Discord servers, Byte stores Discord user, server, channel and role IDs, and data from its modules (moderation warnings, giveaways, support tickets, log and temporary voice channel settings, virtual coins and levels). Server structure snapshots are created only when an administrator requests them.
+
+**7. Limited Use.** Byte's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+
+**8. Contact.** coopercg121@gmail.com

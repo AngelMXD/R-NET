@@ -1,10 +1,16 @@
 ---
-label: Byte
-icon: dependabot
+label: Inicio
+icon: home
 order: 100
 ---
 
 # Byte, bot de Discord
+
+!!!
+**Propósito de la app:** Byte es un bot de Discord gratuito que ofrece entretenimiento (música, economía, niveles y minijuegos) y herramientas de moderación a los servidores de Reino Estelar. Usa Google Drive con un único fin: **guardar copias de seguridad de los datos del propio bot** en el Drive de su desarrollador. Esta página es pública y no requiere iniciar sesión.
+!!!
+
+**Byte** es un bot de Discord todo en uno para las comunidades de Reino Estelar: música, economía, niveles, minijuegos y herramientas de moderación en un solo bot.
 
 Todos los comandos funcionan con barra (`/comando`) o con prefijo (`!comando`). Usa `/help` dentro de Discord para ver la ayuda por categorías.
 
@@ -87,3 +93,14 @@ Para no perder la información del bot, Byte guarda copias de seguridad periódi
 ## Contacto
 
 Correo electrónico: coopercg121@gmail.com
+
+---
+
+## English summary
+
+**Byte** is a free, all-in-one Discord bot for the Reino Estelar communities. It provides music playback, a virtual economy, experience levels, minigames, giveaways, announcements, temporary voice channels and moderation tools.
+
+**Why Byte uses Google:** Byte uses Google OAuth with a single scope, `drive.file`, only so that the bot's developer can store **backups of the bot's own data** in their personal Google Drive. Discord users never sign in with Google, and the bot cannot read any Drive file it did not create.
+
+- [Privacy Policy](privacidad.md)
+- [Terms of Service](terminos.md)
