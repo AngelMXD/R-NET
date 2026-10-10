@@ -1,0 +1,12 @@
+﻿# R-NET
+
+> Bienvenido a la intranet de Reino Estelar, en esta página será un "Todo en uno", donde podrás encontrar la información necesaria para tu labor como moderador e información valiosa como usuario.
+
+- [R-NET](https://AngelMXD.github.io/R-NET/index.md): R-NET
+
+## Reino Estelar
+
+- [1.0 ❯ ✨ Introduccion](https://AngelMXD.github.io/R-NET/reino-estelar/introduccion.md): Bienvenido al apartado de reglas. Aquí podrás ver a detalle las normas y directrices que rigen nuestra comunidad. Es fundamental que todos los miembros las conozcan y respeten para asegurar un ambiente agradable y seguro para todos.
+- [1.1 ❯ ⚖️ Políticas](https://AngelMXD.github.io/R-NET/reino-estelar/canales-de-texto.md): Bienvenido a la sección de Canales de texto. Aquí encontrarás las políticas y normas que rigen el uso de los canales de texto en el servidor de Reino Estelar.
+- [🌌 Información General](https://AngelMXD.github.io/R-NET/reino-estelar/5.6-informaci%C3%B3n-general.md): En este apartado encontrarás información relevante y recursos útiles donde podrás encontrar más en detalle la información de los "roles" obtenidos en el servidor, donde también encontrarás información útil de las "jerarquías" y "niveles" dentro del servidor.
+- [🛰️ Centro de Ayuda (Q&A)](https://AngelMXD.github.io/R-NET/reino-estelar/5.4-preguntas-y-respuestas.md): En esta sección se encuentran las preguntas más frecuentes realizadas por moderadores y usuarios del servidor. Si tienes alguna pregunta adicional, no dudes en contactarnos para que sea respondida y agregada aquí.
