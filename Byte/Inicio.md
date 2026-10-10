@@ -2,6 +2,7 @@
 label: Inicio
 icon: home
 order: 100
+visibility: public
 ---
 
 # Byte, bot de Discord

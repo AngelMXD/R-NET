@@ -2,6 +2,7 @@
 label: Política de privacidad
 icon: shield-lock
 order: 90
+visibility: public
 ---
 
 # Política de privacidad de Byte

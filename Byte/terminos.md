@@ -2,6 +2,7 @@
 label: Términos y condiciones
 icon: law
 order: 80
+visibility: public
 ---
 
 # Términos y condiciones de Byte
